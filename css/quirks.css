@@ -1,0 +1,19 @@
+/* COMMON */
+ul { list-style-image: none; }
+ul ul { list-style-image: none; }
+
+/* HEADER */
+#topMenuContainer { background: #3B4A59; }
+
+#mainMenu { background: #2D5276; }
+#mainMenu a { background: none; }
+
+
+/* CONTENT */
+#leftMenu { background: none; }
+#leftMenu a { background: none; }
+
+
+
+/* FOOTER */
+#footer { background: #0A1725; }

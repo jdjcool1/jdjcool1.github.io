@@ -1,0 +1,4 @@
+body { font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #000000; background: black url(../images/starfield.gif); margin: 0px; padding: 0px; }
+a { color: #ffffff; }
+img { border: none; }
+#text { margin: auto; position: relative; text-align: center; }
