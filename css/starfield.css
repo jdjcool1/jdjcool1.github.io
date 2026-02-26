@@ -1,11 +1,22 @@
 /* COMMON */
 body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; margin: 0px; padding: 0px; background: url("../images/login_bg.png") no-repeat top, url(../images/starfield.gif) repeat, black; }
-a { font-size: 13px; color: #FFFFFF; text-shadow: 0px 1px 6px #154257, 0px 2px 6px #CEDEEC; text-decoration: none; }
 h1 { font-size: 13px; color: #FFFFFF; text-shadow: 0px 0px 3px #A9E1E9, 0px 2px 6px #7adefe, 0px 2px 14px #7adefe; }
-img { border: none; width: 500; height: 500; }
+a { font-size: 13px; color: #FFFFFF; text-shadow: 0px 1px 6px #154257, 0px 2px 6px #CEDEEC; text-decoration: none; }
+img { border: none; }
 /* HEADER */
 #header { position: relative; height: 59px; text-align: center; font-size: 10px; line-height: 24px; padding: 0px 10px; background: url(../images/top-menu_bg.png) top repeat-x; }
+#header h1 {  }
+#header a {  }
 /* CONTENT */
-#content { flex: 0; width: 998px; height: 100px; margin: auto; position: relative; text-align: center; background-size: 100% auto; padding-top: 10px; padding-bottom: 10px; background: url(../images/top_bg.png) top center no-repeat, url(../images/bottom_bg.png) bottom center no-repeat, url(../images/mid_bg.png) center top repeat-y ;}
+#content { flex: 0; width: 998px; height: 100px; margin: auto; position: relative; text-align: center; background-size: 100% auto; padding-top: 10px; padding-bottom: 20px; background: url(../images/bottom_bg.png) bottom center no-repeat, url(../images/top_bg.png) top center no-repeat, url(../images/mid_bg.png) center top -60px repeat-y ;}
+#content hi { margin-top: 10px; margin-bottom: 20px; }
+#content a {  }
+#content img { width: 500; height: 500; }
+#button { padding-top: 10px; padding-bottom: 20px; }
+#button a { text-align: center; display: block; height: 100px; text-decoration: none; background: url(../images/map-iconInternet.png) center top no-repeat; }
+#button a:hover { background-position: center -100px; }
+#button img { height: 0px; }
 /* FOOTER */
 #footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
+#footer h1 {  }
+#footer a {  }
