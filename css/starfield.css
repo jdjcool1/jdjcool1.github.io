@@ -1,5 +1,5 @@
 /* COMMON */
-body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; margin: 0px; padding: 0px; background: url("../images/login_bg.png") no-repeat center , url(../images/starfield.gif) repeat, black; }
+body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; margin: 0px; padding: 0px; background: url("../images/login_bg.png") no-repeat top, url(../images/starfield.gif) repeat, black; }
 a { font-size: 13px; color: #FFFFFF; text-shadow: 0px 1px 6px #154257, 0px 2px 6px #CEDEEC; text-decoration: none; }
 h1 { font-size: 13px; color: #FFFFFF; text-shadow: 0px 0px 3px #A9E1E9, 0px 2px 6px #7adefe, 0px 2px 14px #7adefe; }
 img { border: none; width: 500; height: 500; }
@@ -9,3 +9,4 @@ img { border: none; width: 500; height: 500; }
 #content { flex: 1; margin: auto; position: relative; text-align: center; }
 /* FOOTER */
 #footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
+
