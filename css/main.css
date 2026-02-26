@@ -1,5 +1,5 @@
 /* COMMON */
-body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #000000; margin: 0px; padding: 0px; background: url(../images/starfield.gif) repeat, black; }
+body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; margin: 0px; padding: 0px; background: url(../images/starfield.gif) repeat, black; }
 a { color: #FFFFFF; }
 
 ul { list-style-image: url(../images/bullet1.png); }
@@ -74,4 +74,5 @@ img { border: none; }
 /*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; font-size: 11px;  color: #DDD; }
+
 
