@@ -9,7 +9,7 @@ ul ul { list-style-image: url(../images/bullet2.png); }
 img { border: none; }
 
 /* HEADER */
-#header { position: relative; text-align: center; height: 370px; background: url(../images/header.png) center top no-repeat; }
+#header { position: relative; text-align: center; height: 370px; background: url(../images/header.png) center top -60px no-repeat; }
 
 #topMenu { height: 24px; }
 #topMenuContainer { text-align: center; font-size: 10px; line-height: 24px; padding: 0px 10px; background: url(../images/top-menu_bg.png) top repeat-x; }
@@ -75,6 +75,7 @@ img { border: none; }
 /*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; font-size: 11px;  color: #DDD; }
+
 
 
 
