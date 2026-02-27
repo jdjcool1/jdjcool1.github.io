@@ -13,17 +13,20 @@ https://jdjcool1.github.io/
 <body>
 	<!-- HEADER SECTION -->
 	<div id="header">
+		<h1>Launch Site</h1>
 	</div>
 	<!-- CONTENT SECTION -->
 	<div id="content">
 		<h1>Site is Launching in 5 seconds</h1>
 			<div id="button">
-				<a href="Home.html"><img src="images/bullet2.png" alt="Launch Site" /></a>
+				<a href="Home.html"><img src="images/bullet2.png" /></a>
 			</div>
 		<a>Site is Launching in 5 seconds</a>
 	</div>
 	<!-- FOOTER SECTION -->
 	<div id="footer">
+		<a href="https://github.com/jdjcool1/jdjcool1.github.io/tree/main">jdjcool1.github.io</a><br/><br/>
+		<c> This website is usuing GitHub Pages Hosting.<br/>You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub. </c>
 	</div>
 </body>
 </html>
