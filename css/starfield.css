@@ -1,7 +1,8 @@
 /* COMMON */
 body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; margin: 0px; padding: 0px; background: url("../images/login_bg.png") no-repeat top, url(../images/starfield.gif) repeat, black; }
-h1 { font-size: 13px; color: #FFFFFF; text-shadow: 0px 0px 3px #A9E1E9, 0px 2px 6px #7adefe, 0px 2px 14px #7adefe; }
+h1 { font-size: 13px; color: #FFFFFF; text-shadow: 0px 0px 3px #A9E1E9, 0px 2px 6px #7adefe, 0px 2px 14px #7adefe; text-decoration: underline; }
 a { font-size: 13px; color: #FFFFFF;  text-decoration: none; }
+c {  font-size: 11px; color: #FFFFFF;  text-decoration: none; }
 img { border: none; }
 /* HEADER */
 #header { position: relative; height: 59px; background: url(../images/top-menu_bg.png) top repeat-x; }
@@ -12,13 +13,13 @@ img { border: none; }
 	border: 1px solid #21333E; -moz-border-radius: 20px; border-radius: 20px; border-top-color: #21333E; border-left-color: #21333E; border-right-color: #21333E; border-bottom-color: #21333E; -moz-box-shadow: 0px 0px 8px #FFA523, 0px 0px 25px #21333e; -webkit-box-shadow: 0px 0px 8px #FFA523, 0px 0px 25px #21333e; box-shadow: 0px 0px 8px #FFA523, 0px 0px 25px #21333e; }
 #content h1 { margin-top: -6px; margin-bottom: 0px; font-size: 41px }
 #content a { text-shadow: 0px 1px 6px #154257, 0px 2px 6px #CEDEEC; margin-top: 10px; margin-bottom: 20px; padding-top: 0px; padding-bottom: 0px;}
-#content img { width: 500; height: 500; }
+#content img { margin-top: 10px; margin-bottom: 20px; }
 #button { padding-top: 0px; padding-bottom: 0px; }
-#button h1 { text-align: center; display: block; height: 170px; text-decoration: none; background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 170px; }
-#button h1:hover { background-position: center 100%; }
+#button a { text-align: center; display: block; height: 170px;  background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 170px; }
+#button a:hover { background-position: center 100%; }
 #button img { height: 0px; }
 /* FOOTER */
 #footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
-#footer h1 { margin-bottom: 20px; font-size: 11px; }
-#footer h1:hover { text-shadow: 0px 0px 3px #FFF, 0px 2px 7px #000; color: #FFF; }
-#footer a {  font-size: 11px; }
+#footer a { text-shadow: 0px 2px 7px #000; margin: auto 7px; color: #EEE; font-size: 11px; text-decoration: underline; }
+#footer a:hover { text-shadow: 0px 0px 3px #FFF, 0px 2px 7px #000; color: #FFF; }
+#footer c { color: #DDD; }
