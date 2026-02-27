@@ -1,5 +1,4 @@
-# jdjcool1.github.io
-https://jdjcool1.github.io/
+<x href="https://jdjcool1.github.io/">jdjcool1.github.io</x>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
 "http://www.w3.org/TR/html4/loose.dtd">
 <head>
@@ -25,7 +24,7 @@ https://jdjcool1.github.io/
 	</div>
 	<!-- FOOTER SECTION -->
 	<div id="footer">
-		<a href="https://github.com/jdjcool1/jdjcool1.github.io/tree/main">jdjcool1.github.io</a><br/><br/>
+		<a href="https://github.com/jdjcool1/jdjcool1.github.io/tree/main">jdjcool1/jdjcool1.github.io</a><br/><br/>
 		<c> This website is usuing GitHub Pages Hosting.<br/>You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub. </c>
 	</div>
 </body>
