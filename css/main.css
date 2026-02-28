@@ -45,6 +45,7 @@ img { border: none; }
 /*#leftMenu { display: none; }*/
 
 #icons { text-align: center; }
+#icons a { width: 50px; height: 50xp; }
 
 #middleColumn { position: relative; margin-left: 240px; width: 500px; padding: 20px 20px; }
 .article { clear: both; padding-bottom: 40px; }
@@ -75,3 +76,4 @@ img { border: none; }
 /*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; font-size: 11px;  color: #DDD; }
+
