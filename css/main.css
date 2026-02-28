@@ -1,7 +1,7 @@
 /* COMMON */
-body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; margin: 0px; padding: 0px; background: url("../images/login_bg.png") no-repeat top, url(../images/starfield.gif) repeat, black; }
-a { font-size: 13px; color: #FFFFFF; }
-h1 { font-size: 13px; color: #FFFFFF; }
+body { height: 100%;  margin: 0; display: flex; flex-direction: column; min-height: 100vh; font-family: Arial, Helvetica, sans-serif; font-size: 22px; color: #FFFFFF; text-decoration: none; margin: 0px; padding: 0px; background: url("../images/login_bg.png") no-repeat top, url(../images/starfield.gif) repeat, black; }
+a { font-size: 13px; color: #FFFFFF; text-decoration: none; }
+h1 { font-size: 13px; color: #FFFFFF; text-decoration: none; }
 
 ul { list-style-image: url(../images/bullet1.png); }
 ul ul { list-style-image: url(../images/bullet2.png); }
@@ -13,7 +13,7 @@ img { border: none; }
 
 #topMenu { height: 59px; }
 #topMenuContainer { text-align: center; font-size: 10px; line-height: 24px; padding: 0px 10px; background: url(../images/top-menu_bg.png) top repeat-x; }
-#topMenu a { color: #DDDDDD; text-decoration: none; margin: auto 5px; }
+#topMenu a { color: #DDDDDD; margin: auto 5px; }
 #topMenu a:hover { text-shadow: 0px 0px 5px #FFF; color: #FFFFFF; text-decoration: underline; }
 
 /* TIP: Uncomment the following line to hide the top menu */
@@ -26,8 +26,8 @@ img { border: none; }
 #mainMenu { position: absolute; width: 100%; top: 330px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
 #mainMenuContainer { float: left; position: relative; right: -50%; }
 #mainMenuContainer2 { position: relative; right: 50%; }
-#mainMenu a { text-shadow: 0px 1px 2px #154257, 0px 0px 6px #DFEFF7; display: block; position: relative; float: left; width: 187px; height: 34px; line-height: 34px; text-decoration: none; font-weight: bold; margin-top: 4px; background: url(../images/main-menu_button.png) center top no-repeat; }
-#mainMenu a:hover { text-shadow: 0px 0px 3px #FFF, 0px 0px 13px #DFEFF7; background-position: center -50px; -moz-box-shadow: 0px 0px 25px #7ABDDE; -webkit-box-shadow: 0px 0px 25px #7ABDDE; box-shadow: 0px 0px 25px #7ABDDE;}
+#mainMenu a { text-shadow: 0px 1px 2px #154257, 0px 0px 6px #DFEFF7; display: block; position: relative; float: left; width: 189px; height: 32px; line-height: 32px; font-weight: bold; margin-top: 4px; background: url(../images/main-menu_button.png) center top no-repeat; }
+#mainMenu a:hover { text-shadow: 0px 0px 3px #FFF, 0px 0px 13px #DFEFF7; background-position: center 100%; -moz-box-shadow: 0px 0px 25px #7ABDDE; -webkit-box-shadow: 0px 0px 25px #7ABDDE; box-shadow: 0px 0px 25px #7ABDDE; text-decoration: underline; }
 
 /* TIP: Uncomment the following line to hide the main menu */
 /*#mainMenu { display: none; }*/  
@@ -38,18 +38,19 @@ img { border: none; }
 
 #leftColumn { position: absolute; left: 0px; top: 0px; width: 240px; padding: 10px; padding-top: 10px; }
 #leftMenu { text-align: center; background: url(../images/left-menu_bg.png) top repeat-x; }
-#leftMenu a { text-shadow: 0px 0px 7px #CEDEEC; color: #CEDEEC; margin: auto; text-decoration: none; font-weight: bold; line-height: 44px; display: block; width: 206px; height: 40px; background: url(../images/left-menu_button.png) center top no-repeat; }
-#leftMenu a:hover { text-shadow: 0px 0px 4px #FFF, 0px 0px 10px #CEDEEC; color: #FFFFFF; background-position: center -50px;}
+#leftMenu a { text-shadow: 0px 0px 7px #CEDEEC; color: #CEDEEC; margin: auto; font-weight: bold; line-height: 44px; display: block; width: 201px; height: 44px; background: url(../images/left-menu_button.png) center top no-repeat; }
+#leftMenu a:hover { text-shadow: 0px 0px 4px #FFF, 0px 0px 10px #CEDEEC; color: #FFFFFF; background-position: center 100%; text-decoration: underline; }
 
 /* TIP: Uncomment the following line to hide the left menu */
 /*#leftMenu { display: none; }*/
 
 #icons { text-align: center; }
-#icons a { width: 50px; height: 50xp; }
+#icons a { width: 100%; height: 35px; margin-bottom: -1px; padding-top: 3px; text-align: left; display: block; line-height: 44px; border: 1px solid #7ABDDE; border-radius: 5px; border-right-width: 0px; }
+#icons a:hover { text-decoration: underline; }
 
 #middleColumn { position: relative; margin-left: 240px; width: 500px; padding: 20px 20px; }
 .article { clear: both; padding-bottom: 40px; }
-.article h1 { text-shadow: 0px 0px 3px #A9E1E9, 0px 2px 10px #000; border: 0px solid #32506D; border-bottom-width: 1px; margin: 0px; margin-top: 30px; padding-bottom: 5px; padding-left: 0px;}
+.article h1 { text-shadow: 0px 0px 3px #A9E1E9, 0px 2px 10px #000; border: 0px solid #32506D; border-bottom-width: 1px; margin: 0px; margin-top: 30px; padding-bottom: 5px; padding-left: 0px; }
 .articleBody { font-size: 17px; padding: 0px 10px; line-height: 18px; text-align: justify; }
 .articleInfo { color: #999999; font-size: 10px; padding: 5px 0px; }
 .articleAuthor { float: left; }
@@ -65,15 +66,14 @@ img { border: none; }
 
 
 /* FOOTER */
-#footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both;}
+#footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
 
 #bottomMenu { margin-bottom: 20px; color: #AAA; font-size: 8px; }
 #bottomMenuContainer {}
 #bottomMenu a { text-shadow: 0px 2px 7px #000; margin: auto 7px; color: #EEE; font-size: 11px; }
-#bottomMenu a:hover { text-shadow: 0px 0px 3px #FFF, 0px 2px 7px #000; color: #FFF; }
+#bottomMenu a:hover { text-shadow: 0px 0px 3px #FFF, 0px 2px 7px #000; color: #FFF; text-decoration: underline; }
 
 /* TIP: Uncomment the following line to hide the the bottom menu */
 /*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; font-size: 11px;  color: #DDD; }
-
