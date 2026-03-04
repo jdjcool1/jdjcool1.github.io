@@ -44,6 +44,12 @@ img { border: none; }
 #leftMenu { text-align: center; background: url(../images/left-menu_bg.png) top repeat-x; }
 #leftMenu a { text-shadow: 0px 0px 7px #FE6C02; margin: auto; font-weight: bold; line-height: 44px; display: block; width: 201px; height: 44px; background: url(../images/left-menu_button.png) center top no-repeat; }
 #leftMenu a:hover { text-shadow: 0px 0px 4px #04D9FF, 0px 0px 10px #FE6C02; background-position: center 100%; text-decoration: underline; }
+#leftMenuContainer {  }
+.box {	font-size: 11px; background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;
+				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
+				-moz-box-shadow: 0px 10px 13px #000; -webkit-box-shadow: 0px 10px 13px #000; box-shadow: 0px 10px 13px #000; }
+.box h1 { text-shadow: 0px 0px 3px #04D9FF, 0px 2px 5px #000; margin: 0px; font-size: 15px; }
+.box-important { background: #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
 
 /* TIP: Uncomment the following line to hide the left menu */
 /*#leftMenu { display: none; }*/
@@ -62,12 +68,6 @@ img { border: none; }
 .articleDate { float: right; }
 
 #rightColumn { position: absolute; right: 0px; top: 0px; width: 240px; padding: 10px; padding-top: 10px; }
-.box {	font-size: 11px; background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;
-				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
-				-moz-box-shadow: 0px 10px 13px #000; -webkit-box-shadow: 0px 10px 13px #000; box-shadow: 0px 10px 13px #000; }
-.box h1 { text-shadow: 0px 0px 3px #04D9FF, 0px 2px 5px #000; margin: 0px; font-size: 15px; }
-.box-important { background: #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
-
 
 /* FOOTER */
 #footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
