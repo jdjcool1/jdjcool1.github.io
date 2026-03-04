@@ -42,7 +42,7 @@ img { border: none; }
 
 #leftColumn { position: absolute; left: 0px; top: 0px; width: 240px; padding: 10px; padding-top: 10px; }
 #leftMenu { text-align: center; background: url(../images/left-menu_bg.png) top repeat-x; }
-#leftMenu a { text-shadow: 0px 0px 7px #FE6C02; margin: auto; font-weight: bold; line-height: 44px; display: block; width: 201px; height: 44px; background: url(../images/left-menu_button.png) center top no-repeat; }
+#leftMenu a { text-shadow: 0px 0px 7px #FE6C02; margin: auto; font-weight: bold; line-height: 44px; padding-left: 12px; display: block; width: 201px; height: 44px; background: url(../images/left-menu_button.png) center top no-repeat; }
 #leftMenu a:hover { text-shadow: 0px 0px 4px #04D9FF, 0px 0px 10px #FE6C02; background-position: center 100%; text-decoration: underline; }
 #leftMenuContainer {  }
 .box {	font-size: 11px; background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;
@@ -80,5 +80,6 @@ img { border: none; }
 
 /* TIP: Uncomment the following line to hide the the bottom menu */
 /*#bottomMenu { display: none; }*/
+
 
 #copyright { text-align: center; }
