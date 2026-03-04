@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <link href="css/files.css" rel="stylesheet" type="text/css">
+    <link href="images/favicon.png" rel="icon" type="image/png">
+  </head>
+  <body>
+    <h1 id="header">Index of <span id="location"></span></h1>
+    <div id="parentDirLinkBox">
+     <a id="parentDirLink" class="icon up" href="#">[parent directory]</a>
+    </div>
+    <table>
+      <thead>
+        <tr id="theader">
+          <th id="nameColumnHeader">Name</th>
+          <th id="sizeColumnHeader" class="detailsColumn">Size</th>
+         <th id="dateColumnHeader" class="detailsColumn">Date modified</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div id="status"></div>
+    <script src="js/files.js"></script>
+  </body>
+</html>
