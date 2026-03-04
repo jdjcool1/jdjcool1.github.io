@@ -1,17 +1,82 @@
 const menuLinks = [
-    { id:"home", text:"Home", url:"Home.html", menus:["top","main","left","bottom"] },
+{
+    id: "home",
+    url: "Home.html",
+    labels: {
+        top: "HOME",
+        main: "Home",
+        left: "Home",
+        bottom: "HOME"
+    },
+    menus: ["top","main","left","bottom"]
+},
 
-    { id:"tat", text:"TriArc Technologies", url:"tat.html", menus:["main","left"] },
+{
+    id: "tat",
+    url: "tat.html",
+    labels: {
+        top: "T.A.T",
+        main: "TriArc Technologies",
+        bottom: "T.A.T"
+    },
+    menus: ["top","main","bottom"]
+},
 
-    { id:"dsn", text:"Data Stream Network", url:"dsn.html", menus:["main","left"] },
+{
+    id: "dsn",
+    url: "dsn.html",
+    labels: {
+        top: "D.S.N",
+        main: "Data Stream Network",
+        bottom: "D.S.N"
+    },
+    menus: ["top","main","bottom"]
+},
 
-    { id:"dsa", text:"Delron Security Alliance", url:"dsa.html", menus:["main","left"] },
+{
+    id: "dsa",
+    url: "dsa.html",
+    labels: {
+        top: "D.S.A",
+        main: "Delron Security Alliance",
+        bottom: "D.S.A"
+    },
+    menus: ["top","main","bottom"]
+},
 
-    { id:"cga", text:"Cosmic Galactic Alliance", url:"cga.html", menus:["main","left"] },
+{
+    id: "cga",
+    url: "cga.html",
+    labels: {
+        top: "C.G.A",
+        main: "Cosmic Galactic Alliance",
+        bottom: "C.G.A"
+    },
+    menus: ["top","main","bottom"]
+},
 
-    { id:"jdd", text:"J.D.D", url:"jdd.html", menus:["top","left","bottom"] },
+{
+    id: "jdd",
+    url: "jdd.html",
+    labels: {
+        top: "J.D.D",
+        left: "JDJCOOL DrakAI Drexon",
+        bottom: "J.D.D"
+    },
+    menus: ["top","left","bottom"]
+},
 
-    { id:"relaunch", text:"Re Launch Site", url:"index.html", menus:["top","bottom"] }
+
+{
+    id: "Re Launch Site",
+    url: "index.html",
+    labels: {
+        top: "Re Launch Site",
+        bottom: "Re Launch Site"
+    },
+    menus: ["top","bottom"]
+},
+
 ];
 
 function buildMenu(containerId, menuName, separator="") {
@@ -21,7 +86,13 @@ function buildMenu(containerId, menuName, separator="") {
 
     const links = menuLinks
         .filter(item => item.menus.includes(menuName))
-        .map(item => `<a id="${item.id}" href="${item.url}">${item.text}</a>`);
+        .map(item => {
+
+            const label = item.labels[menuName] || item.labels.default || item.id;
+
+            return `<a id="${item.id}" href="${item.url}">${label}</a>`;
+
+        });
 
     container.innerHTML = links.join(separator);
 }
@@ -32,7 +103,7 @@ window.onload = function() {
 
     buildMenu("mainMenuContainer2","main"," ");
 
-    buildMenu("leftMenuContainer","left","<br>");
+    buildMenu("leftMenuContainer","left"," ");
 
     buildMenu("bottomMenuContainer","bottom"," | ");
 
