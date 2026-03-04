@@ -1,0 +1,9 @@
+body { font-family: Arial, Helvetica, sans-serif; padding: 20px; }
+h1 { border-bottom: 1px solid #c0c0c0; padding-bottom: 10px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px; }
+th { cursor: pointer;text-align: left; }
+.detailsColumn { text-align: right; white-space: nowrap; }
+tbody tr:hover { background: rgba(0,0,0,0.05); }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
