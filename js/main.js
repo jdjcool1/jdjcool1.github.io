@@ -77,6 +77,16 @@ const menuLinks = [
     menus: ["top","bottom"]
 },
 
+{
+    id: "404",
+    url: "404.html",
+    labels: {
+        top: "404",
+        bottom: "404"
+    },
+    menus: ["top","bottom"]
+}
+
 ];
 
 function buildMenu(containerId, menuName, separator="") {

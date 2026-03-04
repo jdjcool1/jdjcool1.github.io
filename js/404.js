@@ -1,4 +1,4 @@
-let seconds = 5;
+let seconds = 10;
 
 let timer = setInterval(function () {
 
@@ -6,7 +6,7 @@ let timer = setInterval(function () {
 
     if (seconds === 0) {
         clearInterval(timer);
-        window.location.href = "Home.html";
+        window.location.href = "index.html";
     }
 
     seconds--;
