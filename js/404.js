@@ -1,4 +1,4 @@
-let seconds = 20;
+let seconds = 19;
 
 let timer = setInterval(function () {
 
@@ -13,3 +13,4 @@ let timer = setInterval(function () {
 
 
 }, 1000);
+
