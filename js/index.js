@@ -1,4 +1,4 @@
-let seconds = 5;
+let seconds = 4;
 
 let timer = setInterval(function () {
 
@@ -10,5 +10,6 @@ let timer = setInterval(function () {
     }
 
     seconds--;
+
 
 }, 1000);
