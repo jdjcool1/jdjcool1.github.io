@@ -141,12 +141,13 @@ function buildMenu(containerId, menuName, separator="") {
 
 window.onload = function() {
 
-    buildMenu("topMenuContainer","top"," - ");
+    buildMenu("topMenuContainer","top","<as>-</as>");
 
-    buildMenu("mainMenuContainer2","main"," ");
+    buildMenu("mainMenuContainer2","main","");
 
-    buildMenu("leftMenuContainer","left"," ");
+    buildMenu("leftMenuContainer","left","");
 
-    buildMenu("bottomMenuContainer","bottom"," | ");
+    buildMenu("bottomMenuContainer","bottom","<as>|</as>");
+
 
 };
