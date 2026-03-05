@@ -16,6 +16,7 @@ a.dir::before { border-radius: 3px; background: color-mix(in srgb, #f0c000 60%, 
 a.file::before { background: color-mix(in srgb, #4aa3ff 60%, transparent); }
 a.up::before { background: color-mix(in srgb, #888 60%, transparent); }
 
-#parentDirLinkBox { margin-bottom: 12px; display: none; }
+#parentDirLinkBox { margin-bottom: 12px; }
 #status { margin: 10px 0 0; opacity: 0.85; font-size: 0.95rem; }
+
 code { opacity: 0.9; }
