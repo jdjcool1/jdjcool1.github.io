@@ -56,16 +56,48 @@ const menuLinks = [
 },
 
 {
-    id: "jdd",
-    url: "jdd.html",
+    id: "files",
+    url: "files.html",
     labels: {
-        top: "J.D.D",
-        left: "JDJCOOL DrakAI Drexon",
-        bottom: "J.D.D"
+        top: "Files",
+        left: "Files",
+        bottom: "Files"
     },
     menus: ["top","left","bottom"]
 },
 
+{
+    id: "jdjcool1",
+    url: "jdjcool1.html",
+    labels: {
+        top: "jdjcool1",
+        left: "jdjcool1",
+        bottom: "jdjcool1"
+    },
+    menus: ["top","left","bottom"]
+},
+
+{
+    id: "drakai217",
+    url: "drakai217.html",
+    labels: {
+        top: "drakai217",
+        left: "Drakai217",
+        bottom: "drakai217"
+    },
+    menus: ["top","left","bottom"]
+},
+
+{
+    id: "drexon69",
+    url: "drexon69.html",
+    labels: {
+        top: "drexon69",
+        left: "Drexon69",
+        bottom: "drexon69"
+    },
+    menus: ["top","left","bottom"]
+},
 
 {
     id: "Re Launch Site",
