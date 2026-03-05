@@ -5,6 +5,7 @@ li { font-size: 15px; color: #FE6C02; text-decoration: none; }
 a { font-size: 13px; color: #04D9FF; text-decoration: none; }
 h1 { font-size: 20px; color: #FE6C02; text-decoration: none; }
 i { font-size: 10px; color: #FE6C02; text-decoration: none; }
+as { font-size: 13px; color: #FE6C02; text-decoration: none; }
 c { font-size: 11px; color: #FFFFFF; }
 
 ul { padding-inline-start: 40px; text-align: justify; list-style-image: url(../images/bullet1.png); }
@@ -80,5 +81,6 @@ img { border: none; }
 
 /* TIP: Uncomment the following line to hide the the bottom menu */
 /*#bottomMenu { display: none; }*/
+
 
 #copyright { text-align: center; }
