@@ -1,9 +1,21 @@
-body { font-family: Arial, Helvetica, sans-serif; padding: 20px; }
-h1 { border-bottom: 1px solid #c0c0c0; padding-bottom: 10px; }
+:root { color-scheme: light dark; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; padding: 16px; }
+h1 { border-bottom: 1px solid #c0c0c0; margin: 0 0 12px 0; padding: 0 0 12px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 table { border-collapse: collapse; width: 100%; }
-th, td { padding: 8px; }
-th { cursor: pointer;text-align: left; }
-.detailsColumn { text-align: right; white-space: nowrap; }
-tbody tr:hover { background: rgba(0,0,0,0.05); }
+th, td { padding: 8px 10px; }
+th { cursor: pointer; text-align: left; user-select: none; }
+td.detailsColumn, th.detailsColumn { text-align: right; white-space: nowrap; }
+tbody tr:hover { background: color-mix(in srgb, currentColor 8%, transparent); }
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+/* Simple files */
+a.icon { padding-left: 22px; position: relative; }
+a.icon::before { content: ""; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; border-radius: 3px; background: color-mix(in srgb, currentColor 30%, transparent); }
+a.dir::before { border-radius: 3px; background: color-mix(in srgb, #f0c000 60%, transparent); }
+a.file::before { background: color-mix(in srgb, #4aa3ff 60%, transparent); }
+a.up::before { background: color-mix(in srgb, #888 60%, transparent); }
+
+#parentDirLinkBox { margin-bottom: 12px; display: none; }
+#status { margin: 10px 0 0; opacity: 0.85; font-size: 0.95rem; }
+code { opacity: 0.9; }
