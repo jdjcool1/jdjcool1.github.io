@@ -1,7 +1,7 @@
 const menuLinks = [
 {
     id: "home",
-    url: "Home.html",
+    url: "home.html",
     labels: {
         top: "HOME",
         main: "Home",
@@ -151,3 +151,4 @@ window.onload = function() {
 
 
 };
+
