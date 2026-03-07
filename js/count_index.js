@@ -2,7 +2,7 @@ let seconds = 4;
 
 let hash = window.location.hash.substring(1);
 
-let target = hash ? hash + ".html" : "Home.html";
+let target = hash ? hash + ".html" : "home.html";
 
 let timer = setInterval(function () {
 
@@ -16,3 +16,4 @@ let timer = setInterval(function () {
     seconds--;
 
 }, 1000);
+
