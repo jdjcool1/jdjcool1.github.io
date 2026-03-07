@@ -1,15 +1,18 @@
 let seconds = 4;
 
+let hash = window.location.hash.substring(1);
+
+let target = hash ? hash + ".html" : "Home.html";
+
 let timer = setInterval(function () {
 
     document.getElementById("count").textContent = seconds;
 
     if (seconds === 0) {
         clearInterval(timer);
-        window.location.href = "Home.html";
+        window.location.href = target;
     }
 
     seconds--;
-
 
 }, 1000);
