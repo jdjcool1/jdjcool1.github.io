@@ -56,17 +56,6 @@ const menuLinks = [
 },
 
 {
-    id: "files",
-    url: "files.html",
-    labels: {
-        top: "Files",
-        left: "Files",
-        bottom: "Files"
-    },
-    menus: ["top","left","bottom"]
-},
-
-{
     id: "jdjcool1",
     url: "jdjcool1.html",
     labels: {
@@ -151,4 +140,5 @@ window.onload = function() {
 
 
 };
+
 
