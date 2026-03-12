@@ -8,7 +8,7 @@ const menuLinks = [
         left: "Home",
         bottom: "HOME"
     },
-    menus: ["top","main","left","bottom"]
+    menus: ["top","left","bottom"]
 },
 
 {
