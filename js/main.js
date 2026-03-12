@@ -23,6 +23,17 @@ const menuLinks = [
 },
 
 {
+    id: "rgn",
+    url: "rgn.html",
+    labels: {
+        top: "R.G.N",
+        main: "Rift Gate Network",
+        bottom: "R.G.N"
+    },
+    menus: ["top","main","bottom"]
+},
+
+{
     id: "dsn",
     url: "dsn.html",
     labels: {
@@ -140,5 +151,6 @@ window.onload = function() {
 
 
 };
+
 
 
