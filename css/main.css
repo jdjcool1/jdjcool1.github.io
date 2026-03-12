@@ -39,7 +39,7 @@ img { border: none; }
 
 /* CONTENT */
 #content { flex: 1; clear: both; background: url(../images/content_bg.png) top repeat-x, linear-gradient(0deg, #000048 0%, #00001E 15%);  }
-#contentContainer { margin: auto; position: relative; width: 1024px; }
+#contentContainer { margin: auto; position: relative; }
 
 #leftColumn { position: absolute; left: 0px; top: 0px; width: 240px; padding: 10px; padding-top: 10px; }
 #leftMenu { text-align: center; background: url(../images/left-menu_bg.png) top repeat-x; }
@@ -83,6 +83,7 @@ img { border: none; }
 /*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; }
+
 
 
 
