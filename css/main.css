@@ -29,8 +29,8 @@ img { border: none; }
 #site h1 span { text-shadow: 0px 0px 3px #FE6C02, 0px 2px 6px #04D9FF, 0px 2px 14px #FE6C02; }
 
 #mainMenu { position: absolute; width: 100%; top: 330px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
-#mainMenuContainer { float: left; position: relative; right: -50%; }
-#mainMenuContainer2 { position: relative; right: 50%; }
+#mainMenuContainer { float: right; position: relative; right: 50%; }
+#mainMenuContainer2 { position: relative; left: 50%; }
 #mainMenu a { text-shadow: 0px 1px 2px #04D9FF, 0px 0px 6px #FE6C02; display: block; position: relative; float: left; width: 189px; height: 32px; line-height: 32px; font-weight: bold; margin-top: 4px; background: url(../images/main-menu_button.png) center top no-repeat; }
 #mainMenu a:hover { text-shadow: 0px 0px 3px #04D9FF, 0px 0px 13px #FE6C02; background-position: center 100%; border-radius: 5px; -moz-box-shadow: 0px 0px 25px #04D9FF; -webkit-box-shadow: 0px 0px 25px #04D9FF; box-shadow: 0px 0px 25px #04D9FF; text-decoration: underline; }
 
@@ -83,5 +83,6 @@ img { border: none; }
 /*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; }
+
 
 
