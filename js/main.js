@@ -143,14 +143,10 @@ window.onload = function() {
 
     buildMenu("topMenuContainer","top","<as>-</as>");
 
-    buildMenu("mainMenuContainer2","main","");
+    buildMenu("mainMenujs","main","");
 
     buildMenu("leftMenuContainer","left","");
 
     buildMenu("bottomMenuContainer","bottom","<as>|</as>");
 
-
 };
-
-
-

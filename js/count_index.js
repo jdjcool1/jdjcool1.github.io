@@ -16,4 +16,3 @@ let timer = setInterval(function () {
     seconds--;
 
 }, 1000);
-
