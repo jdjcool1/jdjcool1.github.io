@@ -31,6 +31,7 @@ img { border: none; }
 #footerlink { margin-bottom: 20px; }
 #footer a { text-shadow: 0px 2px 7px #FE6C02; margin: auto 7px; }
 #footer a:hover { text-shadow: 0px 0px 3px #04D9FF, 0px 2px 7px #FE6C02; text-decoration: underline; }
-#footer c {  }
+#copyright { text-align: center; }
+#copyright c {  }
 
 
