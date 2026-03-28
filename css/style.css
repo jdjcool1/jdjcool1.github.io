@@ -8,6 +8,8 @@ textarea { width: 100%; font-family: monospace; }
 #title { font-weight: bold; font-size: 16px; color: rgb(76, 86, 108); text-shadow: white 0px 1px 0px; }
 #h1icon { margin: 10px 0px 4px 0px; vertical-align: middle; border: none; }
 #icon { margin: 10px 0px -1px 0px; }
+#edit { display: none; }
+#toggleEdit:checked ~ #edit { display: block; }
 
 .at1x { display: inline; }
 .at2x { display: none; }
