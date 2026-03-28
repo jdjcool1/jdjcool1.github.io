@@ -88,6 +88,9 @@ img { border: none; }
 #button a:hover { background-position: center 100%; text-decoration: underline; }
 #button img { height: 66px; margin-top: 166px; margin-bottom: 0%; margin-left: 0px; }
 
+#edit { display: none; }
+#toggleEdit:checked ~ #edit { display: block; }
+
 /* FOOTER */
 #footer { position: relative; text-align: center; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
 
