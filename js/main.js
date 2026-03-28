@@ -4,11 +4,12 @@ const menuLinks = [
     url: "home.html",
     labels: {
         top: "HOME",
+        navdash: "HOME",
         main: "Home",
         left: "Home",
         bottom: "HOME"
     },
-    menus: ["top","left","bottom"]
+    menus: ["top","navdash","left","bottom"]
 },
 
 {
@@ -16,10 +17,12 @@ const menuLinks = [
     url: "tat.html",
     labels: {
         top: "T.A.T",
+        navdash: "TriArc Technologies",
         main: "TriArc Technologies",
+        left: "TriArc Technologies",
         bottom: "T.A.T"
     },
-    menus: ["top","main","bottom"]
+    menus: ["top","navdash","main","bottom"]
 },
 
 {
@@ -27,10 +30,12 @@ const menuLinks = [
     url: "rgn.html",
     labels: {
         top: "R.G.N",
+        navdash: "Rift Gate Network",
         main: "Rift Gate Network",
+        left: "Rift Gate Network",
         bottom: "R.G.N"
     },
-    menus: ["top","main","bottom"]
+    menus: ["top","navdash","main","bottom"]
 },
 
 {
@@ -38,10 +43,12 @@ const menuLinks = [
     url: "dsn.html",
     labels: {
         top: "D.S.N",
+        navdash: "HOME",
         main: "Data Stream Network",
+        left: "Data Stream Network",
         bottom: "D.S.N"
     },
-    menus: ["top","main","bottom"]
+    menus: ["top","navdash","main","bottom"]
 },
 
 {
@@ -49,10 +56,12 @@ const menuLinks = [
     url: "dsa.html",
     labels: {
         top: "D.S.A",
+        navdash: "HOME",
         main: "Delron Security Alliance",
+        left: "Delron Security Alliance",
         bottom: "D.S.A"
     },
-    menus: ["top","main","bottom"]
+    menus: ["top","navdash","main","bottom"]
 },
 
 {
@@ -60,10 +69,12 @@ const menuLinks = [
     url: "cga.html",
     labels: {
         top: "C.G.A",
+        navdash: "HOME",
         main: "Cosmic Galactic Alliance",
+        left: "Cosmic Galactic Alliance",
         bottom: "C.G.A"
     },
-    menus: ["top","main","bottom"]
+    menus: ["top","navdash","main","bottom"]
 },
 
 {
@@ -71,10 +82,12 @@ const menuLinks = [
     url: "jdjcool1.html",
     labels: {
         top: "jdjcool1",
+        navdash: "jdjcool1",
+        main: "jdjcool1",
         left: "jdjcool1",
         bottom: "jdjcool1"
     },
-    menus: ["top","left","bottom"]
+    menus: ["top","navdash","left","bottom"]
 },
 
 {
@@ -82,10 +95,12 @@ const menuLinks = [
     url: "drakai217.html",
     labels: {
         top: "drakai217",
+        navdash: "Drakai217",
+        main: "Drakai217",
         left: "Drakai217",
         bottom: "drakai217"
     },
-    menus: ["top","left","bottom"]
+    menus: ["top","navdash","left","bottom"]
 },
 
 {
@@ -93,10 +108,25 @@ const menuLinks = [
     url: "drexon69.html",
     labels: {
         top: "drexon69",
+        navdash: "Drexon69",
+        main: "Drexon69",
         left: "Drexon69",
         bottom: "drexon69"
     },
-    menus: ["top","left","bottom"]
+    menus: ["top","navdash","left","bottom"]
+},
+
+{
+    id: "dashboard",
+    url: "dash.html",
+    labels: {
+        top: "dash",
+        navdash: "Dashboard",
+        main: "Dashboard",
+        left: "Dashboard",
+        bottom: "dash"
+    },
+    menus: ["top","navdash","bottom"]
 },
 
 {
@@ -104,9 +134,12 @@ const menuLinks = [
     url: "index.html",
     labels: {
         top: "Re Launch Site",
+        navdash: "Re Launch Site",
+        main: "Re Launch Site",
+        left: "Re Launch Site",
         bottom: "Re Launch Site"
     },
-    menus: ["top","bottom"]
+    menus: ["top","navdash","bottom"]
 },
 
 {
@@ -114,12 +147,29 @@ const menuLinks = [
     url: "404.html",
     labels: {
         top: "404",
+        navdash: "404",
+        main: "404",
+        left: "404",
         bottom: "404"
     },
-    menus: ["top","bottom"]
+    menus: ["top","navdash","bottom"]
 }
 
 ];
+
+window.onload = function() {
+
+    buildMenu("topMenuContainer","top","<as>-</as>");
+
+    buildMenu("Navdashjs","navdash","|");
+
+    buildMenu("mainMenujs","main","");
+
+    buildMenu("leftMenuContainer","left","");
+
+    buildMenu("bottomMenuContainer","bottom","<as>|</as>");
+
+};
 
 function buildMenu(containerId, menuName, separator="") {
 
@@ -138,15 +188,3 @@ function buildMenu(containerId, menuName, separator="") {
 
     container.innerHTML = links.join(separator);
 }
-
-window.onload = function() {
-
-    buildMenu("topMenuContainer","top","<as>-</as>");
-
-    buildMenu("mainMenujs","main","");
-
-    buildMenu("leftMenuContainer","left","");
-
-    buildMenu("bottomMenuContainer","bottom","<as>|</as>");
-
-};
