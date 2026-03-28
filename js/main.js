@@ -43,7 +43,7 @@ const menuLinks = [
     url: "dsn.html",
     labels: {
         top: "D.S.N",
-        navdash: "HOME",
+        navdash: "Data Stream Network",
         main: "Data Stream Network",
         left: "Data Stream Network",
         bottom: "D.S.N"
@@ -56,7 +56,7 @@ const menuLinks = [
     url: "dsa.html",
     labels: {
         top: "D.S.A",
-        navdash: "HOME",
+        navdash: "Delron Security Alliance",
         main: "Delron Security Alliance",
         left: "Delron Security Alliance",
         bottom: "D.S.A"
@@ -69,7 +69,7 @@ const menuLinks = [
     url: "cga.html",
     labels: {
         top: "C.G.A",
-        navdash: "HOME",
+        navdash: "Cosmic Galactic Alliance",
         main: "Cosmic Galactic Alliance",
         left: "Cosmic Galactic Alliance",
         bottom: "C.G.A"
@@ -161,7 +161,7 @@ window.onload = function() {
 
     buildMenu("topMenuContainer","top","<as>-</as>");
 
-    buildMenu("Navdashjs","navdash","|");
+    buildMenu("navdashjs","navdash"," |-| ");
 
     buildMenu("mainMenujs","main","");
 
