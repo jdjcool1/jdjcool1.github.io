@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-	<title>dashboard</title>
+	<title>Dashboard</title>
 	<meta name="viewport" content="user-scalable=no, width=device-width" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script src="js/main.js"></script>
@@ -12,7 +12,7 @@
 		<img src="images/favicon.png" width="87" height="85" id="icon" class="at1x" alt="Zik Clock" />
 		<img src="images/favicon@2x.png" width="87" height="85" id="icon" class="at2x" alt="Zik Clock" />
 	</div>
-	<h1>{{{dashboard}{title}}}</h1>
+	<h1>{{{title}{file}}}</h1>
 	<div class="box">
 		<div class="header">
 			<div class="text">Navigation</div>
@@ -20,35 +20,35 @@
 		<div class="navdashjs"><div id="navdashjs">
 
 		</div></div>
-		<div class="heading center">{{{Localization}{heading}}}</div>
-		<div class="text center">{{{Your language missing or needing improvement? Contribute at !}{localization credits}}}</div>
+		<div class="heading center">{{{info}{heading}}}</div>
+		<div class="text center">{{text}}</div>
+		<div class="heading">{{{display}{file}}}</div>
 		<div class="">
-			<div class="heading">{{{Localization}{heading}}}</div>
-			<div class="text">10milesfromnowhere <span class="comment">{{{Dutch}{localization credits}}}</span></div>
+			<div class="text">"$DATA"</div>
 		</div>
 		<div class="heading">Posted by </div>
 		<div class="text">jdjcool1 <span class="comment">Date Nul</span></div>
-		<div class="heading">{{{Testing}{heading}}}</div>
+		<div class="heading">{{{edit}{file}}}</div>
 		<input type="checkbox" name="rounded" value="on" id="checkrounded" class="checkbox" />
 		<label for="checkrounded">edit</label><br/>
 		<span class="checkboxexplanation">edit</span>
 	</div>
 	<div class="edit">
-		<h2>{{{Save}{heading}}}</h2>
+		<h2>{{{Save}{file}}}</h2>
 		<form action="dash/dashboard.txt" method="post" enctype="multipart/form-data">
 			<div class="box">
-				<div class="textareaspacer"><textarea name="data" rows="20" cols="40">"dash/dashboard.txt"</textarea></div>
+				<div class="textareaspacer"><textarea name="data" rows="20" cols="40">"$DATA"</textarea></div>
 				<input type="submit" value="{{{Save}{button}}}" />
 			</div>
 		</form>
-		<h2>{{{Upload}{heading}}}</h2>
+		<h2>{{{Upload}{file}}}</h2>
 		<form action="dash/dashboard.txt" method="post" enctype="multipart/form-data">
 			<div class="box">
 				<input type="file" name="file" />
 				&nbsp;<input type="submit" value="{{{Upload}{button}}}" />
 			</div>
 		</form>
-		<h2>{{{Download}{heading}}}</h2>
+		<h2>{{{Download}{file}}}</h2>
 		<form action="dash/dashboard.txt" method="get">
 			<div class="box">
 				<input type="submit" value="{{{Download}{button}}}" />
