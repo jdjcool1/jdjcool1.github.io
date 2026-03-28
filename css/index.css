@@ -23,10 +23,10 @@ img { border: none; }
 #box a { margin-top: 10px; margin-bottom: 20px; padding-top: 0px; padding-bottom: 0px; }
 #box p { text-shadow: 0px 1px 6px #04D9FF, 0px 2px 6px #FE6C02; }
 #box img {  }
-#button { padding-top: 0px; padding-bottom: 0px; }
-#button a { display: block; height: 170px;  background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 170px; }
+#button { center: relative; padding-top: 0px; padding-bottom: 0px; }
+#button a { margin: auto; text-align: center; display: block; width: 170px; height: 170px;  background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 170px; }
 #button a:hover { background-position: center 100%; text-decoration: underline; }
-#button img { height: 66px; margin-top: 48px; margin-bottom: 0%; margin-left: 498px; }
+#button img { height: 66px; margin-top: 54px; margin-bottom: 0%; margin-left: 222px; }
 /* FOOTER */
 #footer { text-align: center; position: relative; padding: 40px 0px 20px 0px; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
 #footerlink { margin-bottom: 20px; }
