@@ -2,6 +2,7 @@ body { margin: 2px auto 0px auto; font-family: Helvetica, Arial, sans-serif; fon
 h1 { font-weight: bold; font-size: 20px; color: rgb(76, 86, 108); text-shadow: white 0px 1px 0px; margin-left: 9px; display: inline; vertical-align: middle; }
 h2 { font-weight: bold; font-size: 16px; color: rgb(76, 86, 108); text-shadow: white 0px 1px 0px; margin: 19px 19px 9px 19px; }
 a:link { text-decoration: none; color: rgb(76, 86, 108); }
+a:hover { text-decoration: underline; color: rgb(76, 86, 108); }
 textarea { width: 100%; font-family: monospace; }
 
 #title { font-weight: bold; font-size: 16px; color: rgb(76, 86, 108); text-shadow: white 0px 1px 0px; }
@@ -21,6 +22,7 @@ textarea { width: 100%; font-family: monospace; }
 .checkbox { margin-top: 1em; }
 .checkboxexplanation { font-size: smaller; margin-left: 22px; }
 .fineprint { text-align: center; font-size: 11px; margin-bottom: 9px; }
+.navdashjs { text-align: center; }
 
 .box { border-color: rgb(169, 171, 174); border-style: solid; border-width: 1px; background-color: white; 
 	-webkit-border-top-right-radius: 10px 10px; -webkit-border-top-left-radius: 10px 10px; -webkit-border-bottom-left-radius: 10px 10px; -webkit-border-bottom-right-radius: 10px 10px; margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; }
