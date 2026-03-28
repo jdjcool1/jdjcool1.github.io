@@ -5,6 +5,7 @@
 	<meta name="viewport" content="user-scalable=no, width=device-width" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script src="js/main.js"></script>
+	<script src="js/checkbox.js"></script>
 	<link href="images/favicon.png" rel="icon" type="image/png">
 </head>
 <body>
@@ -29,32 +30,34 @@
 		<div class="heading">Posted by </div>
 		<div class="text">jdjcool1 <span class="comment">Date Nul</span></div>
 		<div class="heading">{{{edit}{file}}}</div>
-		<input type="checkbox" name="rounded" value="on" id="checkrounded" class="checkbox" />
-		<label for="checkrounded">edit</label><br/>
+		<input type="checkbox" id="toggleEdit" class="checkbox"/>
+		<label for="toggleEdit">edit</label><br/>
 		<span class="checkboxexplanation">edit</span>
 	</div>
-	<div class="edit">
-		<h2>{{{Save}{file}}}</h2>
-		<form action="dashboard.txt" method="post" enctype="multipart/form-data">
-			<div class="box">
-				<div class="textareaspacer"><textarea name="data" rows="20" cols="40">"$DATA"</textarea></div>
-				<input type="submit" value="{{{Save}{button}}}" />
-			</div>
-		</form>
-		<h2>{{{Upload}{file}}}</h2>
-		<form action="dashboard.txt" method="post" enctype="multipart/form-data">
-			<div class="box">
-				<input type="file" name="file" />
-				&nbsp;<input type="submit" value="{{{Upload}{button}}}" />
-			</div>
-		</form>
-		<h2>{{{Download}{file}}}</h2>
-		<form action="dashboard.txt" method="get">
-			<div class="box">
-				<input type="submit" value="{{{Download}{button}}}" />
-			</div>
-		</form>
-	</div>
+	<section id="edit">
+		<div class="edit">
+			<h2>{{{Save}{file}}}</h2>
+			<form action="dashboard.txt" method="post" enctype="multipart/form-data">
+				<div class="box">
+					<div class="textareaspacer"><textarea name="data" rows="20" cols="40">"$DATA"</textarea></div>
+					<input type="submit" value="{{{Save}{button}}}" />
+				</div>
+			</form>
+			<h2>{{{Upload}{file}}}</h2>
+			<form action="dashboard.txt" method="post" enctype="multipart/form-data">
+				<div class="box">
+					<input type="file" name="file" />
+					&nbsp;<input type="submit" value="{{{Upload}{button}}}" />
+				</div>
+			</form>
+			<h2>{{{Download}{file}}}</h2>
+			<form action="dashboard.txt" method="get">
+				<div class="box">
+					<input type="submit" value="{{{Download}{button}}}" />
+				</div>
+			</form>
+		</div>
+	</section>
 	<h2>Copyright </h2>
 	<div class="box">
 		<div class="fineprint" xml:lang="en" lang="en">
