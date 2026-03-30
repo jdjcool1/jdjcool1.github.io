@@ -10,7 +10,7 @@ c { font-size: 11px; color: #FFFFFF; }
 
 ul { padding-inline-start: 40px; text-align: justify; list-style-image: url(../images/bullet1.png); }
 ul ul { list-style-image: url(../images/bullet2.png); }
-
+ 
 img { border: none; }
 
 #carrd { padding-inline-start: 32px; background: url(../images/carrd_favicon.png) left no-repeat; }
