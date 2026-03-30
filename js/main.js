@@ -4,12 +4,16 @@ const menuLinks = [
     url: "home.html",
     labels: {
         top: "HOME",
+        topX: "HOME",
         navdash: "HOME",
         main: "Home",
+        mainX: "Home",
         left: "Home",
-        bottom: "HOME"
+        right: "Home",
+        bottom: "HOME",
+        bottomX: "HOME"
     },
-    menus: ["top","navdash","left","bottom"]
+    menus: ["top","navdash","left","bottom","topX","bottomX"]
 },
 
 {
@@ -159,16 +163,32 @@ const menuLinks = [
 },
 
 {
+    id: "github",
+    url: "https://github.com/jdjcool1/jdjcool1.github.io",
+    labels: {
+        topX: "jdjcool1/jdjcool1.github.io",
+        navdash: "jdjcool1/jdjcool1.github.io",
+        mainX: "jdjcool1/jdjcool1.github.io",
+        left: "jdjcool1/jdjcool1.github.io",
+        bottomX: "jdjcool1/jdjcool1.github.io"
+    },
+    menus: ["topX","navdash","bottomX"]
+},
+
+{
     id: "dashboard",
     url: "dash.html",
     labels: {
         top: "dash",
+        topX: "Dashboard",
         navdash: "Dashboard",
         main: "Dashboard",
+        mainX: "Dashboard",
         left: "Dashboard",
-        bottom: "dash"
+        bottom: "dash",
+        bottomX: "Dashboard"
     },
-    menus: ["top","navdash","bottom"]
+    menus: ["navdash","topX","bottomX"]
 },
 
 {
@@ -194,7 +214,7 @@ const menuLinks = [
         left: "404",
         bottom: "404"
     },
-    menus: ["top","navdash","bottom"]
+    menus: ["navdash"]
 }
 
 ];
@@ -203,15 +223,21 @@ window.onload = function() {
 
     buildMenu("topMenuContainer","top","<as>-</as>");
 
+    buildMenu("topMenuContainerX","topX","<as>-</as>");
+
     buildMenu("navdashjs","navdash"," |-| ");
 
     buildMenu("mainMenujs","main","");
+
+    buildMenu("mainMenuXjs","mainX","");
 
     buildMenu("leftMenuContainer","left","");
 
     buildMenu("iconsContainer","right","");
 
     buildMenu("bottomMenuContainer","bottom","<as>|</as>");
+
+    buildMenu("bottomMenuContainerX","bottomX","<as>|</as>");
 
 };
 
