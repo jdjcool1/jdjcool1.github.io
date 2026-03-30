@@ -117,6 +117,48 @@ const menuLinks = [
 },
 
 {
+    id: "carrd",
+    url: "https://jdd-tat.carrd.co",
+    labels: {
+        top: "TriArc Technologies [TAT] Home",
+        navdash: "TriArc Technologies [TAT] Home",
+        main: "TriArc Technologies [TAT] Home",
+        left: "TriArc Technologies [TAT] Home",
+        right: "TriArc Technologies [TAT] Home",
+        bottom: "TriArc Technologies [TAT] Home"
+    },
+    menus: ["right"]
+},
+
+{
+    id: "gravatar",
+    url: "https://gravatar.com/classytriumphbc0ad472ab",
+    labels: {
+        top: "jdjcool1 | Gravatar",
+        navdash: "jdjcool1 | Gravatar",
+        main: "jdjcool1 | Gravatar",
+        left: "jdjcool1 | Gravatar",
+        right: "jdjcool1 | Gravatar",
+        bottom: "jdjcool1 | Gravatar"
+    },
+    menus: ["right"]
+},
+
+{
+    id: "linktree",
+    url: "https://linktr.ee/jdjcool1",
+    labels: {
+        top: "jdjcool1 | Linktree",
+        navdash: "jdjcool1 | Linktree",
+        main: "jdjcool1 | Linktree",
+        left: "jdjcool1 | Linktree",
+        right: "jdjcool1 | Linktree",
+        bottom: "jdjcool1 | Linktree"
+    },
+    menus: ["right"]
+},
+
+{
     id: "dashboard",
     url: "dash.html",
     labels: {
@@ -166,6 +208,8 @@ window.onload = function() {
     buildMenu("mainMenujs","main","");
 
     buildMenu("leftMenuContainer","left","");
+
+    buildMenu("iconsContainer","right","");
 
     buildMenu("bottomMenuContainer","bottom","<as>|</as>");
 
