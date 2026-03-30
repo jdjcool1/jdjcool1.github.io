@@ -1,8 +1,8 @@
 /* COMMON */
 body { height: 100%; max-width: 100%; margin: 0px auto 0px auto; padding: 0px; display: flex; flex-direction: column; min-height: 100vh; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url("../images/login_bg.png") repeat-x top, url(../images/starfield.gif) repeat, url(../images/backgroundStripes.png) repeat, black; }
 h1 { font-size: 20px; color: #FE6C02; text-decoration: none; font-style: normal; text-shadow: 0px 0px 3px #04D9FF, 0px 2px 8px #FE6C02, 0px 2px 14px #000; }
-a { font-size: 13px; color: #04D9FF; text-decoration: none; font-style: normal; text-shadow: 0px 0px 3px #04D9FF, 0px 2px 8px #FE6C02; }
-a:hover { color: #FE6C02; text-decoration: underline; text-shadow: 0px 0px 3px #FE6C02, 0px 2px 8px #04D9FF; }
+a { font-size: 13px; color: #04D9FF; text-decoration: none; font-style: normal; text-shadow: 0px 0px 3px #FE6C02, 0px 2px 8px #04D9FF; }
+a:hover { color: #FE6C02; text-decoration: underline; text-shadow: 0px 0px 3px #04D9FF, 0px 2px 8px #FE6C02; }
 p { font-size: 15px; color: #FE6C02; text-decoration: none; font-style: normal; }
 li { font-size: 15px; color: #FE6C02; text-decoration: none; font-style: normal; }
 i { font-size: 10px; color: #FE6C02; text-decoration: none; font-style: normal; }
