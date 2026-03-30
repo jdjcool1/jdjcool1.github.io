@@ -56,8 +56,8 @@ img { border: none; }
 #contentContainerR { float: right; position: relative; right: 50%; }
 #contentContainerL { float: left; position: relative; left: 50%; }
 
-#leftColumn { position: absolute; left: 0px; top: 0px; width: 240px; padding: 10px; padding-top: 10px; }
-#leftMenu { text-align: center; background: url(../images/divider.png) top repeat-x; }
+#leftColumn { position: absolute; left: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
+#leftMenu { text-align: center; }
 #leftMenu a { margin: auto; font-weight: bold; line-height: 43px; padding-left: 12px; display: block; width: 201px; height: 45px; background: url(../images/left-menu_button.png) center top no-repeat; }
 #leftMenu a:hover { background-position: center 100%; }
 #leftMenuContainer {  }
@@ -71,16 +71,16 @@ img { border: none; }
 /* TIP: Uncomment the following line to hide the left menu */
 /*#leftMenu { display: none; }*/
 
-#middleColumn { position: relative; margin: auto; width: 45%; padding: 20px 20px; }
-.article { clear: both; padding-bottom: 40px; }
-.article h1 { margin: 0px; margin-top: 30px; padding-bottom: 5px; padding-left: 0px; }
-.articleBody { padding: 0px 10px; line-height: 30px; text-align: center; border: 1px solid #04D9FF; -moz-border-radius: 5px; border-radius: 5px; }
-.articleInfo { padding: 5px 0px; }
+#middleColumn { position: relative; margin: auto; width: 45%; padding: 15px; }
+.article { clear: both; margin-bottom: 40px; background: url(../images/divider.png) center top 24px repeat-x; border: 1px solid #04D9FF; -moz-border-radius: 5px; border-radius: 5px; }
+.article h1 { margin: 0px; margin-top: 0px; padding-bottom: 5px; padding-left: 5px; }
+.articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
+.articleInfo { padding: 20px 5px; background: url(../images/divider.png) center top 12px repeat-x; }
 .articleAuthor { float: left; }
 .articleAuthor span { font-style: italic; text-shadow: 0px 0px 5px #04D9FF; }
 .articleDate { float: right; }
 
-#rightColumn { position: absolute; right: 0px; top: 0px; width: 240px; padding: 10px; padding-top: 10px; }
+#rightColumn { position: absolute; right: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
 
 #icons { text-align: center; }
 #icons a { height: 35px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-right-width: 0px; }
