@@ -13,58 +13,53 @@
 		<img src="images/favicon.png" width="87" height="85" id="icon" class="at1x" alt="favicon" />
 		<img src="images/favicon@2x.png" width="87" height="85" id="icon" class="at2x" alt="favicon@2x" />
 	</div>
-	<h1>{{{title}{file}}}</h1>
-	<div class="box">
-		<div class="header">
-			<div class="text">Navigation</div>
-		</div>
-		<div class="navdashjs"><div id="navdashjs">
+	<div class="article">
+		<div class="tab"><h1>{{{title}{file}}}</h1></div>
+		<div class="leftboxtop"></div>
+		<div class="boxbackgroundyellow"><div class="articleBody">
+			<h3>Navigation</h3>
+			<div class="navdashjs"><div id="navdashjs">
 
+			</div></div>
+			<h3>{{{info}{heading}}}</h3>
+			<div class="text center">{{text}}</div>
+			<h3>{{{display}{file}}}</h3>
+			<div id="boxbackgroundwhite">
+				<p>"$DATA"</p>
+			</div>
+			<div class="articleInfo">
+				<div class="articleAuthor"><i>Posted by <span>jdjcool1</span></i></div>
+				<div class="articleDate"><i>Date Nul</i></div>
+			</div>
+			<h3>Edit File</h3>
+			<input type="checkbox" id="toggleEdit" class="checkbox"/>
+			<label for="toggleEdit">edit</label><br/>
 		</div></div>
-		<div class="heading center">{{{info}{heading}}}</div>
-		<div class="text center">{{text}}</div>
-		<div class="heading">{{{display}{file}}}</div>
-		<div class="">
-			<div class="text">"$DATA"</div>
-		</div>
-		<div class="heading">Posted by </div>
-		<div class="text">jdjcool1 <span class="comment">Date Nul</span></div>
-		<div class="heading">{{{edit}{file}}}</div>
-		<input type="checkbox" id="toggleEdit" class="checkbox"/>
-		<label for="toggleEdit">edit</label><br/>
-		<span class="checkboxexplanation">edit</span>
+		<div class="boxbottom"></div>
 	</div>
 	<section id="edit">
 		<div class="edit">
-			<h2>{{{Save}{file}}}</h2>
-			<form action="dashboard.txt" method="post" enctype="multipart/form-data">
-				<div class="box">
+			<div class="article">
+				<div class="tab"><h2>Edit</h2></div>
+				<div class="leftboxtop"></div>
+				<div class="boxbackgroundyellow"><div class="articleBody">
+				<form action="dashboard.txt" method="post" enctype="multipart/form-data">
 					<div class="textareaspacer"><textarea name="data" rows="20" cols="40">"$DATA"</textarea></div>
-					<input type="submit" value="{{{Save}{button}}}" />
-				</div>
-			</form>
-			<h2>{{{Upload}{file}}}</h2>
-			<form action="dashboard.txt" method="post" enctype="multipart/form-data">
-				<div class="box">
-					<input type="file" name="file" />
-					&nbsp;<input type="submit" value="{{{Upload}{button}}}" />
-				</div>
-			</form>
-			<h2>{{{Download}{file}}}</h2>
-			<form action="dashboard.txt" method="get">
-				<div class="box">
-					<input type="submit" value="{{{Download}{button}}}" />
-				</div>
-			</form>
-		</div>
-	</section>
-	<h2>Copyright </h2>
-	<div class="box">
-		<div class="fineprint" xml:lang="en" lang="en">
-			<div class="text">
-				This website is usuing GitHub Pages Hosting.<br/>You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub.
+					<input type="file" name="file" />&nbsp;<input type="submit" value="{{{Upload}{button}}}" />
+					<input type="submit" value="{{{Save}{button}}}" /><input type="submit" value="{{{Download}{button}}}" />
+				</form>
+				</div></div>
+				<div class="boxbottom"></div>
 			</div>
 		</div>
+	</section>
+	<div class="article">
+		<div class="tab"><h2>Copyright</h2></div>
+		<div class="leftboxtop"></div>
+		<div class="boxbackgroundyellow"><div class="articleBody">
+				<c>This website is usuing GitHub Pages Hosting.<br/>You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub.</c>
+		</div></div>
+		<div class="boxbottom"></div>
 	</div>
 </body>
 </html>
