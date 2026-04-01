@@ -30,14 +30,13 @@ img { border: none; }
 /*#topMenuContainer { display: none; }*/
 
 #site { position: relative; height: 153px; text-align: center; } 
-#site h1 { position: relative; top: 0px; right: -280px; width: 400px; margin: 0px auto; text-align: center; }
+#site h1 {  width: 400px; margin: 0px auto; text-align: center; }
 #site h1 span {  }
-#site img { width: 87px; height: 85px; }
+#site img { width: 81px; height: 89px; }
 
-.at1x { display: inline; }
-.at2x { display: none; }
-@media screen and (-webkit-min-device-pixel-ratio: 2) { .at1x { display: none; } .at2x { display: inline; } }
-#favicon { margin: 10px 0px -1px 0px; }
+#favicon { background: url(../images/favicon.png) top center no-repeat; }
+#favicon h1 { padding-top: 89px; }
+.favicon { position: relative; right: -280px; height: 89px; margin-bottom: 23px; }
 
 #mainMenu { position: absolute; width: 100%; top: 212px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
 #mainMenu as { line-height: 40px; }
@@ -56,7 +55,7 @@ img { border: none; }
 #contentContainerR { float: right; position: relative; right: 50%; }
 #contentContainerL { float: left; position: relative; left: 50%; }
 
-#leftColumn { position: absolute; left: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
+#leftColumn { position: absolute; z-index: 2; left: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
 #leftMenu { text-align: center; }
 #leftMenu a { margin: auto; font-weight: bold; line-height: 43px; padding-left: 12px; display: block; width: 201px; height: 45px; background: url(../images/left-menu_button.png) center top no-repeat; }
 #leftMenu a:hover { background-position: center 100%; }
@@ -71,7 +70,7 @@ img { border: none; }
 /* TIP: Uncomment the following line to hide the left menu */
 /*#leftMenu { display: none; }*/
 
-#middleColumn { position: relative; margin: auto; width: 45%; padding: 15px; }
+#middleColumn { position: relative; z-index: 3; margin: auto; width: 45%; padding: 15px; }
 .article { clear: both; margin-bottom: 40px; background: url(../images/divider.png) center top 24px repeat-x; border: 1px solid #04D9FF; -moz-border-radius: 5px; border-radius: 5px; }
 .article h1 { margin: 0px; margin-top: 0px; padding-bottom: 5px; padding-left: 5px; }
 .articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
@@ -80,7 +79,7 @@ img { border: none; }
 .articleAuthor span { font-style: italic; text-shadow: 0px 0px 5px #04D9FF; }
 .articleDate { float: right; }
 
-#rightColumn { position: absolute; right: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
+#rightColumn { position: absolute; z-index: 1; right: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
 
 #icons { text-align: center; }
 #icons a { height: 35px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-right-width: 0px; }

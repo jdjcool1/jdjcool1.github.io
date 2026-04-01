@@ -8,16 +8,16 @@ p { font-size: 13px; text-decoration: none; font-style: normal; display: content
 i { font-size: 11px; text-decoration: none; font-style: normal; }
 c { font-size: 11px; text-decoration: none; font-style: normal; }
 textarea { margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; width: 582px; font-family: monospace; }
-img { width: 87px; height: 85px; }
+img { width: 81px; height: 89px; }
 
 #edit { display: none; }
 #toggleEdit:checked ~ #edit { display: block; }
 .checkbox { margin-top: 13px; }
 .button { margin: 0px 1px; float: left; }
 
-.at1x { display: inline; }
-.at2x { display: none; }
-@media screen and (-webkit-min-device-pixel-ratio: 2) { .at1x { display: none; } .at2x { display: inline; } }
+#favicon { background: url(../images/favicon.png) top center no-repeat; }
+#favicon h1 { padding-top: 89px; }
+.favicon { height: 89px; margin-bottom: 23px; }
 
 .article { margin: 0px 20px; }
 .article h1, h2, h3 { margin: 0px; padding-top: 14px; }
@@ -34,3 +34,10 @@ img { width: 87px; height: 85px; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
 
 .box { text-align: left; border-color: #a9abae; border-style: solid; border-width: 1px; background-color: white; margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; -webkit-border-radius: 2px; }
+
+
+#d1a08e
+#ffe5cc
+
+#8ab87b
+#e5ffcc
