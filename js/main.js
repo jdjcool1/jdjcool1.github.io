@@ -225,7 +225,7 @@ window.onload = function() {
 
     buildMenu("topMenuContainerX","topX","<as>-</as>");
 
-    buildMenu("navdashjs","navdash"," |-| ");
+    buildMenu("navdashjs","navdash","<p> |-| </p>");
 
     buildMenu("mainMenujs","main","");
 
