@@ -1,17 +1,19 @@
 body { margin: 12px auto 0px auto; font-family: Helvetica, Arial, sans-serif; text-align: center; font-size: 13px; background: url(../images/backgroundStripes.png) repeat; max-width: 698px; }
-h1 { font-weight: bold; font-size: 20px; color: rgb(76, 86, 108); text-shadow: white 0px 1px 0px; }
-h2 { font-weight: bold; font-size: 16px; color: rgb(76, 86, 108); text-shadow: white 0px 1px 0px; }
-h3 { font-weight: bold; font-size: 13px;  }
-a:link { text-decoration: none; color: rgb(76, 86, 108); }
-a:hover { text-decoration: underline; color: rgb(76, 86, 108); }
-p { font-size: 15px; text-decoration: none; font-style: normal; }
+h1 { font-weight: bold; font-size: 20px; color: #4c566c; text-shadow: white 0px 1px 0px; }
+h2 { font-weight: bold; font-size: 16px; color: #4c566c; text-shadow: white 0px 1px 0px; }
+h3 { font-weight: bold; font-size: 13px; border-top: 1px solid #a9abae; }
+a { font-size: 13px; text-decoration: none; color: #4c566c; }
+a:hover { text-decoration: underline; }
+p { font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px;}
 i { font-size: 11px; text-decoration: none; font-style: normal; }
 c { font-size: 11px; text-decoration: none; font-style: normal; }
-textarea { width: 100%; font-family: monospace; }
+textarea { margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; width: 582px; font-family: monospace; }
+img { width: 87px; height: 85px; }
 
 #edit { display: none; }
 #toggleEdit:checked ~ #edit { display: block; }
-.checkbox { margin-top: 1em; }
+.checkbox { margin-top: 13px; }
+.button { margin: 0px 1px; float: left; }
 
 .at1x { display: inline; }
 .at2x { display: none; }
@@ -19,7 +21,7 @@ textarea { width: 100%; font-family: monospace; }
 
 .article { margin: 0px 20px; }
 .article h1, h2, h3 { margin: 0px; padding-top: 14px; }
-.articleBody { margin: 0px 18px }
+.articleBody { padding: 0px 18px }
 .articleInfo { padding: 20px 5px; }
 .articleAuthor { float: left; }
 .articleAuthor span { font-style: italic; }
@@ -28,6 +30,14 @@ textarea { width: 100%; font-family: monospace; }
 .tab { width: 318px; height: 40px; background: url(../images/tab.png) bottom center no-repeat; line-height: 50px; }
 .leftboxtop { width: 658px; height: 29px; background: url(../images/boxtopleft.png) top center no-repeat; }
 .rightboxtop { width: 658px; height: 29px; background: url(../images/boxtopright.png) top center no-repeat; }
-.boxbackgroundyellow { width: 658px; background: url(../images/boxyellow.png) top center repeat-y; }
-#boxbackgroundwhite { width: 658px; background: url(images/boxwhite.png) top center repeat-y; }
+.boxbackground { width: 658px; background: url(../images/boxyellow.png) top center repeat-y; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
+
+.box { text-align: left; border-color: #a9abae; border-style: solid; border-width: 1px; background-color: white; margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; -webkit-border-radius: 2px; }
+
+
+#d1a08e
+#ffe5cc
+
+#8ab87b
+#e5ffcc
