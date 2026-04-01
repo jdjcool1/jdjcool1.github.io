@@ -30,13 +30,13 @@ img { border: none; }
 /*#topMenuContainer { display: none; }*/
 
 #site { position: relative; height: 153px; text-align: center; } 
-#site h1 {  width: 400px; margin: 0px auto; text-align: center; }
+#site h1 { margin: 0px auto; }
 #site h1 span {  }
 #site img { width: 81px; height: 89px; }
 
 #favicon { background: url(../images/favicon.png) top center no-repeat; }
 #favicon h1 { padding-top: 89px; }
-.favicon { position: relative; right: -280px; height: 89px; margin-bottom: 23px; }
+.favicon { position: relative; right: -280px; width: 400px; height: 89px; margin: 0px auto; margin-bottom: 23px; }
 
 #mainMenu { position: absolute; width: 100%; top: 212px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
 #mainMenu as { line-height: 40px; }
