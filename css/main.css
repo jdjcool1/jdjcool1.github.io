@@ -105,7 +105,7 @@ img { border: none; }
 #button a { position: absolute; right: 0px; left: 0px; margin: auto; display: block; line-height: 345px; width: 187px; height: 170px;  background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 170px; }
 #button a:hover { background-position: center 100%; }
 #button img { height: 66px; margin-top: 166px; margin-bottom: 0%; margin-left: 0px; }
-.loading { position: relative; right: -280px; top: 58px; line-height: 67px; color: #00000000; background: url(../images/loading.gif) top center no-repeat; }
+.loading { position: relative; margin: 0px auto; width: 67px; right: -280px; top: 58px; line-height: 67px; color: #00000000; background: url(../images/loading.gif) top center no-repeat; }
 
 #edit { display: none; }
 #toggleEdit:checked ~ #edit { display: block; }
