@@ -38,7 +38,7 @@ img { width: 81px; height: 89px; }
 .leftboxtop { width: 658px; height: 29px; background: url(../images/boxtopleft.png) top center no-repeat; }
 .rightboxtop { width: 658px; height: 29px; background: url(../images/boxtopright.png) top center no-repeat; }
 .centerboxtop { width: 658px; height: 29px; background: url(../images/boxtopcenter.png) top center no-repeat; }
-.boxbackground { width: 658px; background: url(../images/boxyellow.png) top center repeat-y; }
+.boxbackground { width: 658px; min-height: 600px; background: url(../images/boxyellow.png) top center repeat-y; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
 
 .box { text-align: left; border-color: #a9abae; border-style: solid; border-width: 1px; background-color: white; margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; -webkit-border-radius: 2px; }
