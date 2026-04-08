@@ -48,4 +48,4 @@ img { width: 81px; height: 89px; }
 .checkbox { margin-top: 13px; }
 .button { margin: 0px 1px; float: left; }
 
-#footer { height: 100vh; position: relative; }
+#footer { color: #00000000; }
