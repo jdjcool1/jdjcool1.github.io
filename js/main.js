@@ -205,6 +205,19 @@ const menuLinks = [
 },
 
 {
+    id: "loop",
+    url: "loop.html",
+    labels: {
+        top: "loop",
+        navdash: "loop",
+        main: "loop",
+        left: "loop",
+        bottom: "loop"
+    },
+    menus: ["top","navdash","left","bottom","topX","bottomX"]
+},
+
+{
     id: "404",
     url: "404.html",
     labels: {
