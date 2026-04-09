@@ -3,23 +3,25 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Launch Site</title>
 		<style> 
-body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; background: url(../images/starfield.gif) repeat, black; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; background: url(./images/starfield.gif) repeat, black; }
 a { font-size: 20px; text-decoration: none; color: #A407A4;  }
 a:hover { text-decoration: underline; color: #00E1BC; }
 img { border: none; }
-#loop { top: 25%; padding: 0px; margin: auto; position: relative; text-align: center; }  
+#loop { background: url(./images/loop.png) top center no-repeat; background-size: contain; }  
+#loop a { position: absolute; inset: 0; padding-top: 500px; }
+.loop { top: 25%; padding: 0px; position: relative; text-align: center; width: 500px; height: 500px; margin: 0px auto; margin-bottom: 23px; }
 		</style>
 		<script>
-let seconds = 19;
+let seconds = 39;
 let hash = window.location.hash.substring(1);
 let target = hash ? hash + ".html" : "loop.html";
 let timer = setInterval(function () { document.getElementById("count").textContent = seconds; if (seconds === 0) { clearInterval(timer); window.location.href = target; } seconds--; }, 1000);
 		</script>
-		<link href="../images/loop.png" rel="icon" type="image/png" />
+		<link href="./images/loop.png" rel="icon" type="image/png" />
 	</head>
 	<body>
-		<div id="loop">
-			<a href="../loop.html"><img src="../images/loop.png" width="500" height="500" alt="loop" /></br>loop in <span id="count">20</span> seconds...</a>
+		<div class="loop" id="loop">
+			<a href="./loop.html">loop in <span id="count">40</span> seconds...</a>
 		</div>
 	</body>
 </html>
