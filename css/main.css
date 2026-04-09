@@ -41,7 +41,7 @@ img { border: none; }
 
 #mainMenu { position: absolute; width: 100%; top: 212px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
 #mainMenu as { line-height: 40px; }
-#mainMenuContainerR { float: right; position: fixed; right: 50%; }
+#mainMenuContainerR { float: right; position: fixed; right: 50%; min-width: 945px; }
 #mainMenuContainerL { position: relative; left: 50%; }
 #mainMenu a { display: block; position: relative; float: left; width: 189px; height: 33px; line-height: 33px; font-weight: bold; margin-top: 4px; background: url(../images/main-menu_button.png) center top no-repeat; }
 #mainMenu a:hover { background-position: center 100%; border-radius: 5px; -moz-box-shadow: 0px 0px 25px #04D9FF; -webkit-box-shadow: 0px 0px 25px #04D9FF; box-shadow: 0px 0px 25px #04D9FF; text-decoration: underline; }
