@@ -72,7 +72,7 @@ img { border: none; }
 /* TIP: Uncomment the following line to hide the left menu */
 /*#leftMenu { display: none; }*/
 
-#middleColumn { position: relative; z-index: 3; margin: auto; min-width: 449px; width: 45%; max-width: 1370px; padding: 15px; }
+#middleColumn { position: relative; z-index: 3; margin: auto 255px auto 255px; padding: 15px; }
 .article { clear: both; margin-bottom: 40px; background: url(../images/divider.png) center top 24px repeat-x; border: 1px solid #04D9FF; -moz-border-radius: 5px; border-radius: 5px; }
 .article h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 5px; padding-left: 5px; }
 .articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
@@ -113,7 +113,7 @@ img { border: none; }
 #toggleEdit:checked ~ #edit { display: block; }
 
 /* FOOTER */
-#footer { height: 119px; position: relative; text-align: center; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
+#footer { height: 125px; position: relative; text-align: center; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
 .footer { position: fixed; width: 100%; height: 100%; background: #00009f96; }
 
 #bottomMenu { margin-top: 40px; }
