@@ -14,7 +14,7 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #favicon h1 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 23px; }
 
-#content { height: 766px; position: relative; /*flex: 1;*/ }
+#content { height: 766px; position: relative; flex: 1; }
 
 #loop { position: absolute; margin-bottom: 28px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
