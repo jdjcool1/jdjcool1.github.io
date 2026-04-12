@@ -1,26 +1,65 @@
-<html>
+<!DOCTYPE HTML>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>loop</title>
-		<style> 
-body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #00000000; background: url(./images/starfield.gif) repeat, black; }
-a { color: #A407A4; border: 1px solid #A407A4; border-radius: 100px; font-size: 20px; text-decoration: none; }
-a:hover { color: #00E1BC; border: 1px solid #00E1BC; border-radius: 100px; }
-#loop { background: url(./images/loop.png) top center no-repeat; background-size: contain; }
-#loop a { position: absolute; inset: 0; padding-top: 500px; }
-.loop { margin:8px auto; padding-bottom: 23px; position: relative; text-align: center; width: 500px; height: 500px; }
-		</style>
-		<script>
-let seconds = 39;
-let hash = window.location.hash.substring(1);
-let target = hash ? hash + ".html" : "loop.html";
-let timer = setInterval(function () { document.getElementById("count").textContent = seconds; if (seconds === 0) { clearInterval(timer); window.location.href = target; } seconds--; }, 1000);
+		<link href="css/loop.css" rel="stylesheet" type="text/css">
+		<script src="js/main.js"></script>
+		<script src="js/count_loop.js" type="text/javascript"></script>
+		<script type="text/javascript">
+<!--
+function Swap(aboxid, bboxid, cboxid) {
+	document.getElementById(aboxid).style.zIndex = 3;
+	document.getElementById(bboxid).style.zIndex = 2;
+	document.getElementById(cboxid).style.zIndex = 1;
+}
+-->
 		</script>
-		<link href="./images/loop.png" rel="icon" type="image/png" />
+		<link href="images/favicon.png" rel="icon" type="image/png" />
 	</head>
 	<body>
-		<div class="loop" id="loop">
-			<a href="./loop.html">loop in <span id="count">40</span> seconds...</a>
+		<div id="header" class="body">
+			<div class="favicon" id="favicon" alt="favicon">
+				<h1>loop</h1>
+			</div>
+		</div>
+		<div id="content" class="body">
+			<div class="article"><div id="boxa" onmousedown="Swap('boxa', 'boxc', 'boxb')">
+				<div class="tab" id="taba">
+					<h2>Navigation</h2>
+				</div>
+				<div class="leftboxtop"></div>
+				<div class="boxbackground"><div class="articleBody">
+					<div class="navloopjs" id="navloopjs">
+
+					</div>
+				</div></div>
+				<div class="boxbottom"></div>
+			</div></div>
+			<div class="article"><div id="boxc" onmousedown="Swap('boxc', 'boxb', 'boxa')">
+				<div class="tab" id="tabc">
+					<h2>loop</h2>
+				</div>
+				<div class="centerboxtop"></div>
+				<div class="boxbackground"><div class="articleBody">
+					<div class="loop" id="loop">
+						<a href="./loop.html">loop in <span id="count">60</span> seconds...</a>
+					</div>
+				</div></div>
+				<div class="boxbottom"></div>
+			</div></div>
+			<div class="article"><div id="boxb" onmousedown="Swap('boxb', 'boxc', 'boxa')">
+				<div class="tab" id="tabb">
+					<h2>Copyright</h2>
+				</div>
+				<div class="rightboxtop"></div>
+				<div class="boxbackground"><div class="articleBody">
+					<c>This website is usuing GitHub Pages Hosting.<br/>You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub.</c>
+				</div></div>
+				<div class="boxbottom"></div>
+			</div></div>
+		</div>
+		<div id="footer" class="body">
+			<p>•</p>
 		</div>
 	</body>
 </html>
