@@ -6,15 +6,20 @@ a:hover { text-decoration: underline; }
 p { color: #000000; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px;}
 c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; }
 
-.body { width: 658px; border: 1px solid #ffffff; border-top-width: 0px; border-bottom-width: 0px; background: url(../images/backgroundStripes.png) repeat; }
+.body { width: 676px; border: 1px solid #004c00; border-top-width: 0px; border-bottom-width: 0px; background: url(../images/backgroundStripes.png) repeat; }
 
-#header { height: 112px; position: relative; }
+#header { height: 123px; position: relative; }
 
 #favicon { background: url(../images/favicon.png) top center no-repeat; }
 #favicon h1 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 23px; }
 
-#content { height: 766px; position: relative; flex: 1; }
+#content { height: 766px; position: relative; flex: 1;  }
+
+
+.boxg { position: absolute; margin: 8px; width: 658px; min-height: 114px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
+.boxw { position: absolute; margin: 0px 8px; width: 658px; min-height: 766px; border: 1px solid #a9abae; background-color: #ffffff; -webkit-border-radius: 20px; z-index: 3; }
+.boxr { position: absolute; bottom: 0px; margin: 8px; width: 658px; min-height: 22px; border: 1px solid #d1a08e; background-color: #ffe5cc; -webkit-border-radius: 20px; z-index: 1; }
 
 #loop { position: absolute; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
@@ -23,7 +28,7 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 .loop a { position: absolute; inset: 0; padding-top: 564px; height: 34px; color: #fefe00; font-size: 28px; text-decoration: none; }
 .loop a:hover { color: #0000fe; }
 
-.article { position: absolute; margin: 0px; padding-top: 40px; width: 658px; }
+.article { position: absolute; margin: 0px 0px; padding-top: 40px; width: 658px; }
 .article h1, h2, h3 { margin: 0px; padding-top: 22px; }
 .articleBody { padding: 0px 29px }
 
@@ -34,14 +39,12 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 .boxbackground { width: 658px; min-height: 628px; padding-bottom: 40px; background: url(../images/boxyellow.png) top center repeat-y; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
 
-.box { text-align: left; border: 1px solid #a9abae; background-color: white; margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; -webkit-border-radius: 2px; }
-
-#boxa { width: 658px; position: relative; z-index: 3; }
-#boxb { width: 658px; position: relative; z-index: 1; }
+#boxa { width: 658px; position: relative; z-index: 2; }
 #boxc { width: 658px; position: relative; z-index: 3; }
+#boxb { width: 658px; position: relative; z-index: 1; }
 #taba { left: 0px; }
-#tabb { right: 0px; }
 #tabc { right: 170px; }
+#tabb { right: 0px; }
 
-#footer { height: 112px; position: relative; }
-#footer p { display: block; padding-top: 89px; font-size: 20px; }
+#footer { height: 32px; position: relative; }
+#footer p { position: absolute; display: block; bottom: 0px; right: 0px; left: 0px; font-size: 20px; }
