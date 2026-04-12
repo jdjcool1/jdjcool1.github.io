@@ -5,7 +5,7 @@ const menuLinks = [
     labels: {
         top: "HOME",
         topX: "HOME",
-        navdash: "HOME",
+        navloop: "HOME",
         main: "Home",
         mainX: "Home",
         left: "Home",
@@ -13,7 +13,7 @@ const menuLinks = [
         bottom: "HOME",
         bottomX: "HOME"
     },
-    menus: ["top","navdash","left","bottom","topX","bottomX"]
+    menus: ["top","navloop","left","bottom","topX","bottomX"]
 },
 
 {
@@ -21,12 +21,12 @@ const menuLinks = [
     url: "tat.html",
     labels: {
         top: "T.A.T",
-        navdash: "TriArc Technologies",
+        navloop: "TriArc Technologies",
         main: "TriArc Technologies",
         left: "TriArc Technologies",
         bottom: "T.A.T"
     },
-    menus: ["top","navdash","main","bottom"]
+    menus: ["top","navloop","main","bottom"]
 },
 
 {
@@ -34,12 +34,12 @@ const menuLinks = [
     url: "rgn.html",
     labels: {
         top: "R.G.N",
-        navdash: "Rift Gate Network",
+        navloop: "Rift Gate Network",
         main: "Rift Gate Network",
         left: "Rift Gate Network",
         bottom: "R.G.N"
     },
-    menus: ["top","navdash","main","bottom"]
+    menus: ["top","navloop","main","bottom"]
 },
 
 {
@@ -47,12 +47,12 @@ const menuLinks = [
     url: "dsn.html",
     labels: {
         top: "D.S.N",
-        navdash: "Data Stream Network",
+        navloop: "Data Stream Network",
         main: "Data Stream Network",
         left: "Data Stream Network",
         bottom: "D.S.N"
     },
-    menus: ["top","navdash","main","bottom"]
+    menus: ["top","navloop","main","bottom"]
 },
 
 {
@@ -60,12 +60,12 @@ const menuLinks = [
     url: "dsa.html",
     labels: {
         top: "D.S.A",
-        navdash: "Delron Security Alliance",
+        navloop: "Delron Security Alliance",
         main: "Delron Security Alliance",
         left: "Delron Security Alliance",
         bottom: "D.S.A"
     },
-    menus: ["top","navdash","main","bottom"]
+    menus: ["top","navloop","main","bottom"]
 },
 
 {
@@ -73,12 +73,12 @@ const menuLinks = [
     url: "cga.html",
     labels: {
         top: "C.G.A",
-        navdash: "Cosmic Galactic Alliance",
+        navloop: "Cosmic Galactic Alliance",
         main: "Cosmic Galactic Alliance",
         left: "Cosmic Galactic Alliance",
         bottom: "C.G.A"
     },
-    menus: ["top","navdash","main","bottom"]
+    menus: ["top","navloop","main","bottom"]
 },
 
 {
@@ -86,12 +86,12 @@ const menuLinks = [
     url: "jdjcool1.html",
     labels: {
         top: "jdjcool1",
-        navdash: "jdjcool1",
+        navloop: "jdjcool1",
         main: "jdjcool1",
         left: "jdjcool1",
         bottom: "jdjcool1"
     },
-    menus: ["top","navdash","left","bottom"]
+    menus: ["top","navloop","left","bottom"]
 },
 
 {
@@ -99,12 +99,12 @@ const menuLinks = [
     url: "drakai217.html",
     labels: {
         top: "drakai217",
-        navdash: "Drakai217",
+        navloop: "Drakai217",
         main: "Drakai217",
         left: "Drakai217",
         bottom: "drakai217"
     },
-    menus: ["top","navdash","left","bottom"]
+    menus: ["top","navloop","left","bottom"]
 },
 
 {
@@ -112,12 +112,12 @@ const menuLinks = [
     url: "drexon69.html",
     labels: {
         top: "drexon69",
-        navdash: "Drexon69",
+        navloop: "Drexon69",
         main: "Drexon69",
         left: "Drexon69",
         bottom: "drexon69"
     },
-    menus: ["top","navdash","left","bottom"]
+    menus: ["top","navloop","left","bottom"]
 },
 
 {
@@ -125,7 +125,7 @@ const menuLinks = [
     url: "https://jdd-tat.carrd.co",
     labels: {
         top: "TriArc Technologies [TAT] Home",
-        navdash: "TriArc Technologies [TAT] Home",
+        navloop: "TriArc Technologies [TAT] Home",
         main: "TriArc Technologies [TAT] Home",
         left: "TriArc Technologies [TAT] Home",
         right: "TriArc Technologies [TAT] Home",
@@ -139,7 +139,7 @@ const menuLinks = [
     url: "https://gravatar.com/classytriumphbc0ad472ab",
     labels: {
         top: "jdjcool1 | Gravatar",
-        navdash: "jdjcool1 | Gravatar",
+        navloop: "jdjcool1 | Gravatar",
         main: "jdjcool1 | Gravatar",
         left: "jdjcool1 | Gravatar",
         right: "jdjcool1 | Gravatar",
@@ -153,7 +153,7 @@ const menuLinks = [
     url: "https://linktr.ee/jdjcool1",
     labels: {
         top: "jdjcool1 | Linktree",
-        navdash: "jdjcool1 | Linktree",
+        navloop: "jdjcool1 | Linktree",
         main: "jdjcool1 | Linktree",
         left: "jdjcool1 | Linktree",
         right: "jdjcool1 | Linktree",
@@ -167,28 +167,12 @@ const menuLinks = [
     url: "https://github.com/jdjcool1/jdjcool1.github.io",
     labels: {
         topX: "jdjcool1/jdjcool1.github.io",
-        navdash: "jdjcool1/jdjcool1.github.io",
+        navloop: "jdjcool1/jdjcool1.github.io",
         mainX: "jdjcool1/jdjcool1.github.io",
         left: "jdjcool1/jdjcool1.github.io",
         bottomX: "jdjcool1/jdjcool1.github.io"
     },
-    menus: ["topX","navdash","bottomX"]
-},
-
-{
-    id: "dashboard",
-    url: "dash.html",
-    labels: {
-        top: "dash",
-        topX: "Dashboard",
-        navdash: "Dashboard",
-        main: "Dashboard",
-        mainX: "Dashboard",
-        left: "Dashboard",
-        bottom: "dash",
-        bottomX: "Dashboard"
-    },
-    menus: ["navdash","topX","bottomX"]
+    menus: ["topX","navloop","bottomX"]
 },
 
 {
@@ -196,12 +180,12 @@ const menuLinks = [
     url: "index.html",
     labels: {
         top: "Re Launch Site",
-        navdash: "Re Launch Site",
+        navloop: "Re Launch Site",
         main: "Re Launch Site",
         left: "Re Launch Site",
         bottom: "Re Launch Site"
     },
-    menus: ["top","navdash","bottom"]
+    menus: ["top","navloop","bottom"]
 },
 
 {
@@ -209,12 +193,12 @@ const menuLinks = [
     url: "loop.html",
     labels: {
         top: "loop",
-        navdash: "loop",
+        navloop: "loop",
         main: "loop",
         left: "loop",
         bottom: "loop"
     },
-    menus: ["top","navdash","left","bottom","topX","bottomX"]
+    menus: ["top","left","bottom"]
 },
 
 {
@@ -222,12 +206,12 @@ const menuLinks = [
     url: "404.html",
     labels: {
         top: "404",
-        navdash: "404",
+        navloop: "404",
         main: "404",
         left: "404",
         bottom: "404"
     },
-    menus: ["navdash"]
+    menus: ["navloop"]
 }
 
 ];
@@ -238,7 +222,7 @@ window.onload = function() {
 
     buildMenu("topMenuContainerX","topX","<as>-</as>");
 
-    buildMenu("navdashjs","navdash","<p> |-| </p>");
+    buildMenu("navloopjs","navloop","<p> |-| </p>");
 
     buildMenu("mainMenujs","main","");
 
