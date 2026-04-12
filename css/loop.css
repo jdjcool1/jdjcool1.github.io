@@ -1,4 +1,4 @@
-body { display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 100vh; margin: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #00000000; background: url(../images/starfield.gif) repeat, black; }
+body { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #00000000; background: url(../images/starfield.gif) repeat, black; }
 h1 { color: #4c566c; font-weight: bold; font-size: 20px; text-shadow: white 0px 1px 0px; }
 h2 { color: #4c566c; font-weight: bold; font-size: 16px; text-shadow: white 0px 1px 0px; }
 a { color: #4c566c; font-size: 13px; text-decoration: none; }
@@ -14,13 +14,13 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #favicon h1 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 23px; }
 
-#content { height: 44px; position: relative; flex: 1; }
+#content { height: 766px; position: relative; /*flex: 1;*/ }
 
 #loop { background: url(../images/loop.png) top center no-repeat, url(../images/starfield.gif) repeat; background-size: contain; border: 1px solid #A407A4; border-radius: 100px;}
 #loop:hover { border: 1px solid #00E1BC; color: #00E1BC; }
-#loop a { position: absolute; inset: 0; padding-top: 500px; color: #A407A4; font-size: 20px; text-decoration: none; }
+#loop a { position: absolute; inset: 0; padding-top: 592px; color: #A407A4; font-size: 28px; text-decoration: none; }
 #loop a:hover { color: #00E1BC; }
-.loop { margin: auto; padding-bottom: 23px; position: relative; text-align: center; width: 500px; height: 500px; }
+.loop { margin: auto; padding-bottom: 28px; position: relative; text-align: center; width: 598px; height: 598px; }
 
 .article { position: absolute; margin: 0px; padding-top: 40px; width: 658px; }
 .article h1, h2, h3 { margin: 0px; padding-top: 22px; }
@@ -30,7 +30,7 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 .leftboxtop { width: 658px; height: 29px; background: url(../images/boxtopleft.png) top center no-repeat; }
 .rightboxtop { width: 658px; height: 29px; background: url(../images/boxtopright.png) top center no-repeat; }
 .centerboxtop { width: 658px; height: 29px; background: url(../images/boxtopcenter.png) top center no-repeat; }
-.boxbackground { width: 658px; min-height: 600px; background: url(../images/boxyellow.png) top center repeat-y; }
+.boxbackground { width: 658px; min-height: 628px; padding-bottom: 40px; background: url(../images/boxyellow.png) top center repeat-y; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
 
 .box { text-align: left; border: 1px solid #a9abae; background-color: white; margin: 8px 9px 9px 9px; padding: 14px 10px 11px 10px; -webkit-border-radius: 2px; }
@@ -43,3 +43,4 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #tabc { right: 170px; }
 
 #footer { height: 112px; position: relative; }
+#footer p { display: block; padding-top: 89px; font-size: 20px; }
