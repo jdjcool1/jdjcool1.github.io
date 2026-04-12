@@ -16,11 +16,12 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 
 #content { height: 766px; position: relative; /*flex: 1;*/ }
 
-#loop { background: url(../images/starfield.gif) repeat;  border: 1px solid #A407A4; border-radius: 100px;}
-#loop:hover { border: 1px solid #00E1BC; color: #00E1BC; }
-#loop a { background: url(../images/loop.png) top center no-repeat; background-size: contain; position: absolute; inset: 0; padding-top: 592px; color: #A407A4; font-size: 28px; text-decoration: none; }
-#loop a:hover { color: #00E1BC; }
-.loop { margin: auto; padding-bottom: 28px; position: relative; text-align: center; width: 598px; height: 598px; }
+#loop { position: absolute; margin-bottom: 28px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
+#loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
+#loop a { height: 34px;  position: absolute; inset: 0; padding-top: 564px; color: #fefe00; font-size: 28px; text-decoration: none; }
+#loop a:hover { color: #0000fe; }
+.loop { position: relative; margin: auto; border: 1px solid #fefe00; border-radius: 100px;  width: 598px; height: 598px; text-align: center; background: url(../images/starfield.gif) repeat; }
+.loop:hover { border: 1px solid #0000fe; color: #0000fe; }
 
 .article { position: absolute; margin: 0px; padding-top: 40px; width: 658px; }
 .article h1, h2, h3 { margin: 0px; padding-top: 22px; }
