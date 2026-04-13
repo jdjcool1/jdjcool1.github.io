@@ -14,10 +14,10 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #boxw { position: absolute; width: 658px; min-height: 766px; border: 1px solid #a9abae; background-color: #ffffff; -webkit-border-radius: 20px; z-index: 3; }
 #boxr { position: absolute; width: 658px; min-height: 766px; border: 1px solid #d1a08e; background-color: #ffe5cc; -webkit-border-radius: 20px; z-index: 1; }
 #box { border: 1px solid #000080; border-radius: 5px; background-color: #000080; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000; }
-#box h1 { color: #FE6C02; font-weight: bold; font-size: 20px; text-shadow: #04D9FF 0px 1px 0px; }
-#box h2 { color: #FE6C02; font-weight: bold; font-size: 16px; text-shadow: #04D9FF 0px 1px 0px; }
-#box a { color: #04D9FF; font-size: 13px; text-decoration: none; }
-#box p { color: #FE6C02; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px; }
+#box h1 { color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
+#box h2 { color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
+#box a { color: #04D9FF; }
+#box p { color: #FE6C02; }
 
 
 #loop { position: absolute; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
