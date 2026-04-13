@@ -8,18 +8,19 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 
 .body { width: 676px; border: 1px solid #004c00; border-top-width: 0px; border-bottom-width: 0px; background: url(../images/backgroundStripes.png) repeat; }
 
-#header { height: 123px; position: relative; }
+#header { height: 23px; position: relative; }
+#header p { position: absolute; display: block; top: 0px; right: 0px; left: 0px; font-size: 20px; }
 
 #favicon { background: url(../images/favicon.png) top center no-repeat; }
-#favicon h1 { margin-top: 0px; padding-top: 89px; }
+#favicon h2 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 23px; }
 
 #content { height: 766px; position: relative; flex: 1;  }
 
 #box {  }
-.boxg { position: absolute; margin: 8px; width: 658px; min-height: 114px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
-.boxw { position: absolute; margin: 0px 8px; width: 658px; min-height: 766px; border: 1px solid #a9abae; background-color: #ffffff; -webkit-border-radius: 20px; z-index: 3; }
-.boxr { position: absolute; bottom: 0px; margin: 8px; width: 658px; min-height: 22px; border: 1px solid #d1a08e; background-color: #ffe5cc; -webkit-border-radius: 20px; z-index: 1; }
+#boxg { position: absolute; margin: 0px 8px; width: 658px; min-height: 766px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
+#boxw { position: absolute; margin: 0px 8px; width: 658px; min-height: 766px; border: 1px solid #a9abae; background-color: #ffffff; -webkit-border-radius: 20px; z-index: 3; }
+#boxr { position: absolute; margin: 0px 8px; width: 658px; min-height: 766px; border: 1px solid #d1a08e; background-color: #ffe5cc; -webkit-border-radius: 20px; z-index: 1; }
 
 #loop { position: absolute; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
@@ -46,5 +47,5 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #tabc { right: 170px; }
 #tabb { right: 0px; }
 
-#footer { height: 32px; position: relative; }
+#footer { height: 23px; position: relative; }
 #footer p { position: absolute; display: block; bottom: 0px; right: 0px; left: 0px; font-size: 20px; }
