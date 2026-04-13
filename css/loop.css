@@ -3,17 +3,22 @@ h1 { color: #4c566c; font-weight: bold; font-size: 20px; text-shadow: white 0px 
 h2 { color: #4c566c; font-weight: bold; font-size: 16px; text-shadow: white 0px 1px 0px; }
 a { color: #4c566c; font-size: 13px; text-decoration: none; }
 a:hover { text-decoration: underline; }
-p { color: #000000; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px;}
+p { color: #000000; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px; }
 c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; }
 
 .body { position: relative; border: 1px solid #ffffff; padding: 8px; width: 660px; height: 0px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
 
 #content { height: 766px; /* flex: 1; */  }
- 
-#box { position: absolute; border: 1px solid #000080; border-radius: 5px; background-color: #000080; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 10px 13px #000; }
+
 #boxg { position: absolute; width: 658px; min-height: 766px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
 #boxw { position: absolute; width: 658px; min-height: 766px; border: 1px solid #a9abae; background-color: #ffffff; -webkit-border-radius: 20px; z-index: 3; }
 #boxr { position: absolute; width: 658px; min-height: 766px; border: 1px solid #d1a08e; background-color: #ffe5cc; -webkit-border-radius: 20px; z-index: 1; }
+#box { border: 1px solid #000080; border-radius: 5px; background-color: #000080; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000; }
+#box h1 { color: #FE6C02; font-weight: bold; font-size: 20px; text-shadow: #04D9FF 0px 1px 0px; }
+#box h2 { color: #FE6C02; font-weight: bold; font-size: 16px; text-shadow: #04D9FF 0px 1px 0px; }
+#box a { color: #04D9FF; font-size: 13px; text-decoration: none; }
+#box p { color: #FE6C02; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px; }
+
 
 #loop { position: absolute; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
