@@ -6,16 +6,16 @@ a:hover { text-decoration: underline; }
 p { color: #000000; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px;}
 c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; }
 
-.body { position: relative; border: 1px solid #004c00; border-top-width: 0px; border-bottom-width: 0px; padding: 8px; width: 660px; height: 0px; background: url(../images/backgroundStripes.png) repeat; }
+.body { position: relative; border: 1px solid #004c00; padding: 8px; width: 660px; height: 0px; background: url(../images/backgroundStripes.png) repeat; }
 
-#header {  }
+#header { border-bottom-width: 0px; }
 #header p { position: absolute; display: block; top: 0px; right: 0px; left: 0px; font-size: 20px; }
 
 #favicon { background: url(../images/favicon.png) top center no-repeat; }
 #favicon h2 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 23px; }
 
-#content { height: 766px; /* flex: 1; */  }
+#content { border-top-width: 0px; border-bottom-width: 0px; height: 766px; /* flex: 1; */  }
 
 #box {  }
 #boxg { position: absolute; width: 658px; min-height: 766px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
@@ -47,5 +47,5 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #tabc { right: 170px; }
 #tabb { right: 0px; }
 
-#footer {  }
+#footer { border-top-width: 0px; }
 #footer p { position: absolute; display: block; bottom: 0px; right: 0px; left: 0px; font-size: 20px; }
