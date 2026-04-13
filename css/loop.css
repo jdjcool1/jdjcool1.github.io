@@ -6,16 +6,9 @@ a:hover { text-decoration: underline; }
 p { color: #000000; font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px;}
 c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; }
 
-.body { position: relative; border: 1px solid #004c00; padding: 8px; width: 660px; height: 0px; background: url(../images/backgroundStripes.png) repeat; }
+.body { position: relative; border: 1px solid #ffffff; padding: 8px; width: 660px; height: 0px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
 
-#header { border-bottom-width: 0px; }
-#header p { position: absolute; display: block; top: 0px; right: 0px; left: 0px; font-size: 20px; }
-
-#favicon { background: url(../images/favicon.png) top center no-repeat; }
-#favicon h2 { margin-top: 0px; padding-top: 89px; }
-.favicon { position: relative; height: 89px; margin-bottom: 23px; }
-
-#content { border-top-width: 0px; border-bottom-width: 0px; height: 766px; /* flex: 1; */  }
+#content { height: 766px; /* flex: 1; */  }
 
 #box {  }
 #boxg { position: absolute; width: 658px; min-height: 766px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
@@ -24,10 +17,14 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 
 #loop { position: absolute; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
-.loop { position: relative; margin: auto; border: 1px solid #fefe00; border-radius: 100px;  width: 598px; height: 598px; text-align: center; background: url(../images/starfield.gif) repeat; }
-.loop:hover { border: 1px solid #0000fe; color: #0000fe; }
+.loop { position: relative; margin: auto; border: 1px solid #fefe00; box-shadow: inset 0px 0px 8px #fefe00; border-radius: 100px; width: 598px; height: 598px; text-align: center; background: url(../images/starfield.gif) repeat; }
+.loop:hover { border: 1px solid #0000fe; box-shadow: inset 0px 0px 8px #0000fe; color: #0000fe; }
 .loop a { position: absolute; inset: 0; padding-top: 564px; height: 34px; color: #fefe00; font-size: 28px; text-decoration: none; }
 .loop a:hover { color: #0000fe; }
+
+#favicon { background: url(../images/favicon.png) top center no-repeat; }
+#favicon h2 { margin-top: 0px; padding-top: 89px; }
+.favicon { position: relative; height: 89px; margin-bottom: 23px; }
 
 .article { position: absolute; margin: 0px 0px; padding-top: 40px; width: 658px; }
 .article h1, h2, h3 { margin: 0px; padding-top: 22px; }
@@ -46,6 +43,3 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 #taba { left: 0px; }
 #tabc { right: 170px; }
 #tabb { right: 0px; }
-
-#footer { border-top-width: 0px; }
-#footer p { position: absolute; display: block; bottom: 0px; right: 0px; left: 0px; font-size: 20px; }
