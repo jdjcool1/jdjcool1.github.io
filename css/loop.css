@@ -9,7 +9,7 @@ c { color: #000000; font-size: 11px; text-decoration: none; font-style: normal; 
 .body { position: relative; border: 1px solid #ffffff; padding: 8px; width: 660px; height: 0px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
 
 #content { height: 766px; /* flex: 1; */  }
-
+ 
 #box {  }
 #boxg { position: absolute; width: 658px; min-height: 766px; border: 1px solid #8ab87b; background-color: #e5ffcc; -webkit-border-radius: 20px; z-index: 2; }
 #boxw { position: absolute; width: 658px; min-height: 766px; border: 1px solid #a9abae; background-color: #ffffff; -webkit-border-radius: 20px; z-index: 3; }
