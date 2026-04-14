@@ -1,18 +1,33 @@
-let seconds = 59;
+window.addEventListener("DOMContentLoaded", function () {
 
-let hash = window.location.hash.substring(1);
+    let seconds = 59;
 
-let target = hash ? hash + ".html" : "loop.html";
+    let hash = window.location.hash.substring(1);
+    let target = hash ? hash + ".html" : "loop.html";
 
-let timer = setInterval(function () {
+    let box = document.getElementById("box");
 
-    document.getElementById("count").textContent = seconds;
+    let timer = setInterval(function () {
 
-    if (seconds === 0) {
-        clearInterval(timer);
-        window.location.href = target;
-    }
+        document.getElementById("count").textContent = seconds;
 
-    seconds--;
+        box.classList.remove("boxg", "boxw", "boxr");
 
-}, 1000);
+        if (seconds > 30) {
+            box.className = "boxg";
+        } else if (seconds > 10) {
+            box.className = "boxw";
+        } else {
+            box.className = "boxr";
+        }
+
+        if (seconds === 0) {
+            clearInterval(timer);
+            window.location.href = target;
+        }
+
+        seconds--;
+
+    }, 1000);
+
+});
