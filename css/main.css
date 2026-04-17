@@ -27,9 +27,6 @@ img { border: none; }
 #topMenu a { margin: auto 5px; }
 #topMenu a:hover {  }
 
-/* TIP: Uncomment the following line to hide the top menu */
-/*#topMenuContainer { display: none; }*/
-
 #site { position: relative; height: 194px; text-align: center; } 
 #site h1 { margin: 0px auto; }
 #site h1 span {  }
@@ -44,10 +41,7 @@ img { border: none; }
 #mainMenuContainerR { float: right; position: absolute; right: 50%; min-width: 945px; }
 #mainMenuContainerL { position: relative; left: 50%; }
 #mainMenu a { display: block; position: relative; float: left; width: 189px; height: 33px; line-height: 33px; font-weight: bold; margin-top: 4px; background: url(../images/main-menu_button.png) center top no-repeat; }
-#mainMenu a:hover { background-position: center 100%; border-radius: 5px; -moz-box-shadow: 0px 0px 25px #04D9FF; -webkit-box-shadow: 0px 0px 25px #04D9FF; box-shadow: 0px 0px 25px #04D9FF; text-decoration: underline; }
-
-/* TIP: Uncomment the following line to hide the main menu */
-/*#mainMenu { display: none; }*/  
+#mainMenu a:hover { background-position: center 100%; border-radius: 5px; -moz-box-shadow: 0px 0px 25px #04D9FF; -webkit-box-shadow: 0px 0px 25px #04D9FF; box-shadow: 0px 0px 25px #04D9FF; text-decoration: underline; }  
 
 /* CONTENT */
 #content { flex: 1; text-align: center; clear: both;  }
@@ -62,18 +56,17 @@ img { border: none; }
 #leftMenu a { margin: auto; font-weight: bold; line-height: 43px; padding-left: 12px; display: block; width: 201px; height: 45px; background: url(../images/left-menu_button.png) center top no-repeat; }
 #leftMenu a:hover { background-position: center 100%; }
 #leftMenuContainer {  }
-.box { background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;
-				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
-				-moz-box-shadow: 0px 10px 13px #000; -webkit-box-shadow: 0px 10px 13px #000; box-shadow: 0px 10px 13px #000; }
-.box h1 { margin: 0px; }
-.box-important { background: #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
-#lefttboxContainer {  }
+#leftboxContainer {  }
 
-/* TIP: Uncomment the following line to hide the left menu */
-/*#leftMenu { display: none; }*/
+#rightColumn { position: absolute; z-index: 1; right: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
+#icons { text-align: center; }
+#icons a { height: 35px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-right-width: 0px; }
+#icons a:hover { border: 1px solid #FE6C02; border-right-width: 0px; }
+#iconsContainer {  }
+#rightboxContainer {  }
 
 #middleColumn { position: relative; z-index: 3; margin: auto 255px auto 255px; padding: 15px; }
-.article { clear: both; margin-bottom: 40px; background: #00001e url(../images/divider.png) center top 24px repeat-x; border: 1px solid #04D9FF; -moz-border-radius: 5px; border-radius: 5px; }
+.article { clear: both; background: url(../images/divider.png) center top 24px repeat-x; }
 .article h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 5px; padding-left: 5px; }
 .articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
 .articleInfo { padding: 20px 5px; background: url(../images/divider.png) center top 12px repeat-x; }
@@ -81,13 +74,20 @@ img { border: none; }
 .articleAuthor span { font-style: italic; text-shadow: 0px 0px 5px #04D9FF; }
 .articleDate { float: right; }
 
-#rightColumn { position: absolute; z-index: 1; right: 0px; top: 0px; width: 240px; padding: 15px; padding-top: 15px; }
+.profile { clear: both; background: url(../images/divider.png) center top 24px repeat-x; }
+.profile h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 5px; padding-left: 5px; }
+.profileBody { padding: 0px 10px; line-height: 30px; text-align: center; }
 
-#icons { text-align: center; }
-#icons a { height: 35px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-right-width: 0px; }
-#icons a:hover { border: 1px solid #FE6C02; border-right-width: 0px; }
-#iconsContainer {  }
-#rightboxContainer {  }
+.divider { width: 100%; height: 1px; margin: 10px 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
+.shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); }
+
+.box { background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;
+				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
+				-moz-box-shadow: 0px 10px 13px #000; -webkit-box-shadow: 0px 10px 13px #000; box-shadow: 0px 10px 13px #000; }
+.box h1 { margin: 0px; }
+.box-important { background: #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
+
+#middleboxContainer
 
 .boxborder { position: relative; z-index: 5; padding-top: 5px; background: #000080;
  border: 1px solid #000080; -moz-border-radius: 16px; border-radius: 16px; border-top-color: #000080; border-left-color: #000080; border-right-color: #000080; border-bottom-color: #000080; 
@@ -109,9 +109,6 @@ img { border: none; }
 #button img { height: 66px; margin-top: 166px; margin-bottom: 0%; margin-left: 0px; }
 .loading { position: relative; margin: 0px auto; width: 67px; right: -280px; top: 58px; line-height: 67px; color: #00000000; background: url(../images/loading.gif) top center no-repeat; }
 
-#edit { display: none; }
-#toggleEdit:checked ~ #edit { display: block; }
-
 /* FOOTER */
 #footer { height: 125px; position: relative; text-align: center; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
 .footer { position: fixed; width: 100%; height: 100%; background: #00009f96; }
@@ -120,8 +117,5 @@ img { border: none; }
 #bottomMenuContainer {  }
 #bottomMenu a { margin: auto 7px; }
 #bottomMenu a:hover {  }
-
-/* TIP: Uncomment the following line to hide the the bottom menu */
-/*#bottomMenu { display: none; }*/
 
 #copyright { text-align: center; margin: 20px auto 20px auto; }
