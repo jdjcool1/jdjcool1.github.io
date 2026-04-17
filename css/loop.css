@@ -11,8 +11,8 @@ c { font-size: 11px; text-decoration: none; font-style: normal; }
 #content { height: 766px; /* flex: 1; */  }
 
 #boxj { padding: 10px 0px; border: 1px solid #000080; border-radius: 5px; background-color: #000080; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000; }
-#boxj h1 { color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
-#boxj h2 { color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
+#boxj h1 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
+#boxj h2 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
 #boxj a { color: #04D9FF; }
 #boxj p { color: #FE6C02; }
 
@@ -29,11 +29,11 @@ c { font-size: 11px; text-decoration: none; font-style: normal; }
 .loop a:hover { color: #0000fe; }
 
 #favicon { background: url(../images/favicon.png) top center no-repeat; }
-#favicon h2 { margin-top: 0px; padding-top: 89px; }
-.favicon { position: relative; height: 89px; margin-bottom: 23px; }
+#favicon h1, h2 { margin-top: 0px; padding-top: 89px; }
+.favicon { position: relative; height: 89px; margin-bottom: 30px; }
 
 .article { position: absolute; margin: 0px 0px; padding-top: 40px; width: 658px; }
-.article h1, h2, h3 { margin: 0px; padding-top: 22px; }
+.article h1, h2 { margin: 0px; padding-top: 22px; }
 .articleBody { padding: 0px 29px }
 
 .divider { width: 100%; height: 1px; margin: 10px 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
