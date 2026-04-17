@@ -202,6 +202,19 @@ const menuLinks = [
 },
 
 {
+    id: "temp",
+    url: "temp.html",
+    labels: {
+        top: "temp",
+        navloop: "temp",
+        main: "temp",
+        left: "temp",
+        bottom: "temp"
+    },
+    menus: ["navloop"]
+},
+
+{
     id: "404",
     url: "404.html",
     labels: {
