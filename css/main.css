@@ -87,17 +87,16 @@ img { border: none; }
 .box h1 { margin: 0px; }
 .box-important { background: #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
 
-#middleboxContainer
+#middleboxContainer {  }
 
-.boxborder { position: relative; z-index: 5; padding-top: 5px; background: #000080;
- border: 1px solid #000080; -moz-border-radius: 16px; border-radius: 16px; border-top-color: #000080; border-left-color: #000080; border-right-color: #000080; border-bottom-color: #000080; 
+.boxborder { position: relative; z-index: 5; padding-top: 5px; background: #000080; border: 1px solid #000080; -moz-border-radius: 16px; border-radius: 16px; 
 	-moz-box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF; -webkit-box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF; box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF; }
 .boxtitle { position: relative; z-index: 4; width: 997px; height: 53px; background: url(../images/title_bg.png) bottom center no-repeat; line-height: 50px; }
 .boxtop { position: relative; z-index: 3; width: 997px; height: 179px; background: url(../images/top_bg.png) top center no-repeat; }
 .boxmiddle { position: relative; z-index: 1; width: 997px; background: url(../images/mid_bg.png) top center repeat-y; }
 .boxbottom { position: relative; z-index: 2; width: 997px; height: 29px; background: url(../images/bottom_bg.png) top center no-repeat ; }
 
-.boxarticle {  }
+.boxarticle { position: relative; top: 6px; }
 .boxarticle h1 { text-align: center; margin-top: -6px; margin-bottom: 0px; font-size: 41px; }
 .boxarticle a { text-align: center; margin-top: 10px; margin-bottom: 20px; padding-top: 0px; padding-bottom: 0px; }
 .boxarticle p { margin: 0px; padding-top: 17px; text-align: center; }
