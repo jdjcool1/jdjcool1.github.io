@@ -1,6 +1,7 @@
 const menuLinks = [
 {
     id: "home",
+    class: "home",
     url: "home.html",
     labels: {
         top: "HOME",
@@ -15,9 +16,10 @@ const menuLinks = [
     },
     menus: ["top","navloop","left","bottom","topX","bottomX"]
 },
- 
+
 {
     id: "tat",
+    class: "tat",
     url: "tat.html",
     labels: {
         top: "T.A.T",
@@ -31,6 +33,7 @@ const menuLinks = [
 
 {
     id: "rgn",
+    class: "rgn",
     url: "rgn.html",
     labels: {
         top: "R.G.N",
@@ -44,6 +47,7 @@ const menuLinks = [
 
 {
     id: "dsn",
+    class: "dsn",
     url: "dsn.html",
     labels: {
         top: "D.S.N",
@@ -57,6 +61,7 @@ const menuLinks = [
 
 {
     id: "dsa",
+    class: "dsa",
     url: "dsa.html",
     labels: {
         top: "D.S.A",
@@ -70,6 +75,7 @@ const menuLinks = [
 
 {
     id: "cga",
+    class: "cga",
     url: "cga.html",
     labels: {
         top: "C.G.A",
@@ -83,6 +89,7 @@ const menuLinks = [
 
 {
     id: "jdjcool1",
+    class: "jdjcool1",
     url: "jdjcool1.html",
     labels: {
         top: "jdjcool1",
@@ -96,6 +103,7 @@ const menuLinks = [
 
 {
     id: "drakai217",
+    class: "drakai217",
     url: "drakai217.html",
     labels: {
         top: "drakai217",
@@ -109,6 +117,7 @@ const menuLinks = [
 
 {
     id: "drexon69",
+    class: "drexon69",
     url: "drexon69.html",
     labels: {
         top: "drexon69",
@@ -122,6 +131,7 @@ const menuLinks = [
 
 {
     id: "carrd",
+    class: "Hexagon",
     url: "https://jdd-tat.carrd.co",
     labels: {
         top: "TriArc Technologies [TAT] Home",
@@ -136,6 +146,7 @@ const menuLinks = [
 
 {
     id: "gravatar",
+    class: "Hexagon",
     url: "https://gravatar.com/classytriumphbc0ad472ab",
     labels: {
         top: "jdjcool1 | Gravatar",
@@ -150,6 +161,7 @@ const menuLinks = [
 
 {
     id: "linktree",
+    class: "Hexagon",
     url: "https://linktr.ee/jdjcool1",
     labels: {
         top: "jdjcool1 | Linktree",
@@ -164,6 +176,7 @@ const menuLinks = [
 
 {
     id: "github",
+    class: "github",
     url: "https://github.com/jdjcool1/jdjcool1.github.io",
     labels: {
         topX: "jdjcool1/jdjcool1.github.io",
@@ -177,6 +190,7 @@ const menuLinks = [
 
 {
     id: "Re Launch Site",
+    class: "Re Launch Site",
     url: "index.html",
     labels: {
         top: "Re Launch Site",
@@ -190,6 +204,7 @@ const menuLinks = [
 
 {
     id: "loop",
+    class: "loop",
     url: "loop.html",
     labels: {
         top: "loop",
@@ -203,6 +218,7 @@ const menuLinks = [
 
 {
     id: "temp",
+    class: "temp",
     url: "temp.html",
     labels: {
         top: "temp",
@@ -216,6 +232,7 @@ const menuLinks = [
 
 {
     id: "404",
+    class: "404",
     url: "404.html",
     labels: {
         top: "404",
@@ -266,9 +283,9 @@ function buildMenu(containerId, menuName, separator="") {
         .filter(item => item.menus.includes(menuName))
         .map(item => {
 
-            const label = item.labels[menuName] || item.labels.default || item.id;
+            const label = item.labels[menuName] || item.labels.default || item.class || item.id;
 
-            return `<a id="${item.id}" href="${item.url}">${label}</a>`;
+            return `<a id="${item.id}" class="${item.class}" href="${item.url}">${label}</a>`;
 
         });
 
