@@ -189,20 +189,6 @@ const menuLinks = [
 },
 
 {
-    id: "Re Launch Site",
-    class: "Re Launch Site",
-    url: "index.html",
-    labels: {
-        top: "Re Launch Site",
-        navloop: "Re Launch Site",
-        main: "Re Launch Site",
-        left: "Re Launch Site",
-        bottom: "Re Launch Site"
-    },
-    menus: ["top","navloop","bottom"]
-},
-
-{
     id: "loop",
     class: "loop",
     url: "loop.html",
@@ -214,6 +200,20 @@ const menuLinks = [
         bottom: "loop"
     },
     menus: ["top","left","bottom"]
+},
+    
+{
+    id: "Re Launch Site",
+    class: "Re Launch Site",
+    url: "index.html",
+    labels: {
+        top: "Re Launch Site",
+        navloop: "Re Launch Site",
+        main: "Re Launch Site",
+        left: "Re Launch Site",
+        bottom: "Re Launch Site"
+    },
+    menus: ["top","navloop","bottom"]
 },
 
 {
