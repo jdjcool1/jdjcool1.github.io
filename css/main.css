@@ -14,9 +14,13 @@ ul ul { list-style-image: url(../images/bullet2.png); }
 
 img { border: none; }
 
-#carrd { padding-inline-start: 32px; background: url(../images/carrd_favicon.png) left no-repeat; }
-#gravatar { padding-inline-start: 32px; background: url(../images/gravatar_favicon.png) left no-repeat; }
-#linktree { padding-inline-start: 32px; background: url(../images/linktree_favicon.png) left no-repeat; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+#carrd { background: url(../images/carrd_favicon.png) left no-repeat; }
+#gravatar { background: url(../images/gravatar_favicon.png) left no-repeat; }
+#linktree { background: url(../images/linktree_favicon.png) left no-repeat; }
+.Hexagon { background: url(../images/Hexagon_04D9FF.svg) left no-repeat; }
+.Hexagon:hover { background: url(../images/Hexagon_FE6C02.svg) left no-repeat; }
 
 /* HEADER */
 #header { position: relative; text-align: center; height: 253px; background: url(../images/header.png) center top -153px no-repeat; }
@@ -64,7 +68,7 @@ img { border: none; }
 #rightboxContainerDrexon69 {  }
 
 #icons { text-align: center; }
-#icons a { height: 35px; margin: 0px 10px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-left-width: 0px; border-right-width: 0px; }
+#icons a { height: 32px; margin: 0px 10px; margin-bottom: 3px; padding-top: 3px; padding-inline-start: 32px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-left-width: 0px; border-right-width: 0px; }
 #icons a:hover { border: 1px solid #FE6C02; border-left-width: 0px; border-right-width: 0px; }
 #iconsContainer {  }
 
@@ -81,8 +85,8 @@ img { border: none; }
 .profile h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 17px; padding-left: 5px; background: url(../images/divider.png) center bottom 0px repeat-x; }
 .profileBody { padding: 0px 10px; line-height: 30px; text-align: center; }
 
+#shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); animation: spin 1s linear infinite; }
 .divider { width: 100%; height: 1px; margin: 10px 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
-.shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); }
 
 .box { background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px 0px; -moz-border-radius: 5px; border-radius: 5px;
 				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
