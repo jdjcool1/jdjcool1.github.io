@@ -16,11 +16,12 @@ img { border: none; }
 
 @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
+#github { background: none }
 #carrd { background: url(../images/carrd_favicon.png) left no-repeat; }
 #gravatar { background: url(../images/gravatar_favicon.png) left no-repeat; }
 #linktree { background: url(../images/linktree_favicon.png) left no-repeat; }
-.Hexagon { background: url(../images/Hexagon_04D9FF.svg) left no-repeat; }
-.Hexagon:hover { background: url(../images/Hexagon_FE6C02.svg) left no-repeat; }
+.Hexagon { background: url(../images/Hexagon_000080.svg) left 8px center / 16px 16px no-repeat, url(../images/Hexagon_04D9FF.svg) left center / 32px 32px no-repeat; }
+.Hexagon:hover { background: url(../images/Hexagon_000080.svg) left 8px center / 16px 16px no-repeat, url(../images/Hexagon_FE6C02.svg) left center / 32px 32px no-repeat; }
 
 /* HEADER */
 #header { position: relative; text-align: center; height: 253px; background: url(../images/header.png) center top -153px no-repeat; }
