@@ -128,10 +128,10 @@ const menuLinks = [
         navloop: "TriArc Technologies [TAT] Home",
         main: "TriArc Technologies [TAT] Home",
         left: "TriArc Technologies [TAT] Home",
-        right: "TriArc Technologies [TAT] Home",
+        lefticons: "TriArc Technologies [TAT] Home",
         bottom: "TriArc Technologies [TAT] Home"
     },
-    menus: ["right"]
+    menus: ["lefticons"]
 },
 
 {
@@ -142,10 +142,10 @@ const menuLinks = [
         navloop: "jdjcool1 | Gravatar",
         main: "jdjcool1 | Gravatar",
         left: "jdjcool1 | Gravatar",
-        right: "jdjcool1 | Gravatar",
+        lefticons: "jdjcool1 | Gravatar",
         bottom: "jdjcool1 | Gravatar"
     },
-    menus: ["right"]
+    menus: ["lefticons"]
 },
 
 {
@@ -156,10 +156,10 @@ const menuLinks = [
         navloop: "jdjcool1 | Linktree",
         main: "jdjcool1 | Linktree",
         left: "jdjcool1 | Linktree",
-        right: "jdjcool1 | Linktree",
+        lefticons: "jdjcool1 | Linktree",
         bottom: "jdjcool1 | Linktree"
     },
-    menus: ["right"]
+    menus: ["lefticons"]
 },
 
 {
@@ -243,7 +243,13 @@ window.onload = function() {
 
     buildMenu("leftMenuContainer","left","");
 
-    buildMenu("iconsContainer","right","");
+    buildMenu("leftboxContainer","lefticons","");
+
+    buildMenu("rightboxContainerjdjcool1","jdjcool1","");
+
+    buildMenu("rightboxContainerDrakai217","Drakai217","");
+
+    buildMenu("rightboxContainerDrexon69","Drexon69","");
 
     buildMenu("bottomMenuContainer","bottom","<as>|</as>");
 

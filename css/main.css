@@ -58,11 +58,15 @@ img { border: none; }
 #leftboxContainer {  }
 
 #rightColumn { position: absolute; z-index: 1; right: 0px; top: 0px; min-height: 341px; width: 240px; padding: 15px; }
-#icons { text-align: center; }
-#icons a { height: 35px; margin: 0px 10px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-right-width: 0px; }
-#icons a:hover { border: 1px solid #FE6C02; border-right-width: 0px; }
-#iconsContainer {  }
 #rightboxContainer {  }
+#rightboxContainerjdjcool1 {  }
+#rightboxContainerDrakai217 {  }
+#rightboxContainerDrexon69 {  }
+
+#icons { text-align: center; }
+#icons a { height: 35px; margin: 0px 10px; margin-bottom: 3px; padding-top: 3px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; border-left-width: 0px; border-right-width: 0px; }
+#icons a:hover { border: 1px solid #FE6C02; border-left-width: 0px; border-right-width: 0px; }
+#iconsContainer {  }
 
 #middleColumn { position: relative; z-index: 3; margin: auto 255px auto 255px; min-height: 341px; padding: 15px; }
 .article { clear: both; padding-bottom: 5px; }
