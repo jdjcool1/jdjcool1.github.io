@@ -7,7 +7,7 @@ p { font-size: 13px; text-decoration: none; font-style: normal; display: content
 c { font-size: 11px; text-decoration: none; font-style: normal; }
 
 @view-transition { navigation: auto; }
-::view-transition-group(root) { animation-delay: 0.1s; animation-direction: 1s; }
+::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
 
 .body { position: relative; border: 1px solid #ffffff; padding: 8px; width: 660px; height: 0px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
 
