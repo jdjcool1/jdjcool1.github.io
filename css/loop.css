@@ -51,8 +51,8 @@ c { font-size: 11px; text-decoration: none; font-style: normal; }
 #boxa { width: 658px; position: relative; z-index: 2; }
 #boxc { width: 658px; position: relative; z-index: 3; }
 #boxb { width: 658px; position: relative; z-index: 1; }
-.box { position: absolute; transition: opacity 0.4s ease, transform 0.4s ease; transition: all 0.5s ease; opacity: 0.5; transform: scale(0.995); }
-.box.active { transition: all 0.5s ease; opacity: 1; transform: scale(1); 
+.box { position: absolute; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5; transform: scale(0.995); }
+.box.active { opacity: 1; transform: scale(1); }
 #taba { left: 0px; }
 #tabc { right: 170px; }
 #tabb { right: 0px; }
