@@ -9,9 +9,16 @@
 	<script type="text/javascript">
 <!--
 function Swap(aboxid, bboxid, cboxid) {
+	// Remove active class
+    document.getElementById("boxa").classList.remove("active");
+    document.getElementById("boxb").classList.remove("active");
+    document.getElementById("boxc").classList.remove("active");
+    // Set z-index
 	document.getElementById(aboxid).style.zIndex = 3;
 	document.getElementById(bboxid).style.zIndex = 2;
 	document.getElementById(cboxid).style.zIndex = 1;
+	// Animate selected box
+    document.getElementById(aboxid).classList.add("active");
 }
 -->
 	</script>
@@ -19,7 +26,7 @@ function Swap(aboxid, bboxid, cboxid) {
 </head>
 	<body>
 		<div id="content" class="body"><div id="box" class="boxg">
-			<div class="article"><div id="boxa" onmousedown="Swap('boxa', 'boxc', 'boxb')">
+			<div class="article"><div id="boxa" class="box" onmousedown="Swap('boxa', 'boxc', 'boxb')">
 				<div class="tab" id="taba">
 					<h1>Info</h1>
 				</div>
@@ -37,7 +44,7 @@ function Swap(aboxid, bboxid, cboxid) {
 				</div></div></div>
 				<div class="boxbottom"></div>
 			</div></div>
-			<div class="article"><div id="boxc" onmousedown="Swap('boxc', 'boxa', 'boxb')">
+			<div class="article"><div id="boxc" class="box" onmousedown="Swap('boxc', 'boxa', 'boxb')">
 				<div class="tab" id="tabc">
 					<h1>loop</h1>
 				</div>
@@ -49,7 +56,7 @@ function Swap(aboxid, bboxid, cboxid) {
 				</div></div>
 				<div class="boxbottom"></div>
 			</div></div>
-			<div class="article"><div id="boxb" onmousedown="Swap('boxb', 'boxc', 'boxa')">
+			<div class="article"><div id="boxb" class="box active" onmousedown="Swap('boxb', 'boxc', 'boxa')">
 				<div class="tab" id="tabb">
 					<h1>Copyright</h1>
 				</div>
