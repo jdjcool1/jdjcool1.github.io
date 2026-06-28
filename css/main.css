@@ -76,7 +76,7 @@ img { border: none; }
 #icons a:hover { border: 1px solid #FE6C02; border-left-width: 0px; border-right-width: 0px; }
 #iconsContainer {  }
 
-#middleColumn { position: relative; z-index: 3; margin: auto 255px auto 255px; min-height: 341px; padding: 15px; }
+#middleColumn { position: relative; z-index: 3; margin: auto 255px auto 255px; min-height: 455px; padding: 15px; }
 .article { clear: both; padding-bottom: 5px; }
 .article h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 17px; padding-left: 5px; background: url(../images/divider.png) center bottom 0px repeat-x; }
 .articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
