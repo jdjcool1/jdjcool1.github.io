@@ -176,7 +176,7 @@ const menuLinks = [
 
 {
     id: "github",
-    class: "github",
+    class: "Hexagon",
     url: "https://github.com/jdjcool1/jdjcool1.github.io",
     labels: {
         topX: "jdjcool1/jdjcool1.github.io",
@@ -201,7 +201,7 @@ const menuLinks = [
     },
     menus: ["top","left","bottom"]
 },
-    
+
 {
     id: "Re Launch Site",
     class: "Re Launch Site",
@@ -215,6 +215,7 @@ const menuLinks = [
     },
     menus: ["top","navloop","bottom"]
 },
+
 
 {
     id: "temp",
@@ -260,7 +261,7 @@ window.onload = function() {
 
     buildMenu("leftMenuContainer","left","");
 
-    buildMenu("leftboxContainer","lefticons","");
+    buildMenu("lefticonsContainer","lefticons","");
 
     buildMenu("rightboxContainerjdjcool1","jdjcool1","");
 
