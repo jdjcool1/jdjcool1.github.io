@@ -1,17 +1,15 @@
-body { display: flex; flex-direction: column; justify-content: center; align-items: center; min-width: 678px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #00000000; background: url(../images/starfield.gif) repeat, black; }
+body { display: flex; justify-content: center; align-items: center; min-width: 100vw; min-height: 100vh; max-width: 100%; max-height: 100%; margin: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #00000000; background: url(../images/starfield.gif) repeat, black; }
 h1 { color: #4c566c; font-weight: bold; font-size: 20px; text-shadow: white 0px 1px 0px; }
 h2 { color: #4c566c; font-weight: bold; font-size: 16px; text-shadow: white 0px 1px 0px; }
 a { color: #4c566c; font-size: 13px; text-decoration: none; }
 a:hover { text-decoration: underline; }
 p { font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px; }
-c { font-size: 11px; text-decoration: none; font-style: normal; }
+c { font-size: 11px; text-decoration: none; font-style: normal; position: absolute; bottom: 10px; left: 0px; right: 0px; padding: 0px 10px; }
 
 @view-transition { navigation: auto; }
 ::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
 
-.body { position: relative; border: 1px solid #ffffff; padding: 8px; width: 660px; height: 0px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
-
-#content { height: 766px; /* flex: 1; */  }
+#content { position: relative; border: 1px solid #ffffff; padding: 8px; width: 660px; height: 768px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
 
 #boxj { padding: 10px 0px; border: 1px solid #000080; border-radius: 5px; background-color: #000080; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000; }
 #boxj h1 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
@@ -19,12 +17,22 @@ c { font-size: 11px; text-decoration: none; font-style: normal; }
 #boxj a { color: #04D9FF; }
 #boxj p { color: #FE6C02; }
 
-#box { position: absolute; width: 658px; min-height: 766px; -webkit-border-radius: 20px; transition: all 0.5s ease; }
+#box { container-type: inline-size; display: grid; justify-content: center; grid-template-columns: 1fr 1fr 1fr; position: relative; padding-top: 40px; min-width: 658px; min-height: 726px; max-width: 100%; max-height: 100%; -webkit-border-radius: 20px; transition: all 0.5s ease; }
+.box { grid-area: 1 / 1; position: relative; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5;  }
+.box.active { opacity: 1; }
+.box:nth-child(1) { transform: translateX(0cqw); }
+.box:nth-child(2) { transform: translateX(0cqw); }
+.box:nth-child(3) { transform: translateX(0cqw); }
+
 .boxg { color: #004c00; border: 1px solid #8ab87b; background-color: #e5ffcc; }
 .boxw { color: #000000; border: 1px solid #a9abae; background-color: #ffffff; }
 .boxr { color: #660000; border: 1px solid #d1a08e; background-color: #ffe5cc; }
 
-#loop { position: absolute; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
+#boxa { width: 658px; position: relative; z-index: 2; }
+#boxc { width: 658px; position: relative; z-index: 3; }
+#boxb { width: 658px; position: relative; z-index: 1; }
+
+#loop { position: relative; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
 .loop { position: relative; margin: auto; border: 1px solid #fefe00; box-shadow: inset 0px 0px 8px #fefe00; border-radius: 100px; width: 598px; height: 598px; text-align: center; background: url(../images/starfield.gif) repeat; }
 .loop:hover { border: 1px solid #0000fe; box-shadow: inset 0px 0px 8px #0000fe; color: #0000fe; }
@@ -35,7 +43,7 @@ c { font-size: 11px; text-decoration: none; font-style: normal; }
 #favicon h1, h2 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 30px; }
 
-.article { position: absolute; margin: 0px 0px; padding-top: 40px; width: 658px; }
+.article { position: relative; margin: 0px 0px;  width: 658px; }
 .article h1, h2 { margin: 0px; padding-top: 22px; }
 .articleBody { padding: 0px 29px }
 
@@ -45,14 +53,9 @@ c { font-size: 11px; text-decoration: none; font-style: normal; }
 .leftboxtop { width: 658px; height: 29px; background: url(../images/boxtopleft.png) top center no-repeat; }
 .rightboxtop { width: 658px; height: 29px; background: url(../images/boxtopright.png) top center no-repeat; }
 .centerboxtop { width: 658px; height: 29px; background: url(../images/boxtopcenter.png) top center no-repeat; }
-.boxbackground { width: 658px; min-height: 628px; padding-bottom: 40px; background: url(../images/boxyellow.png) top center repeat-y; }
+.boxbackground { width: 658px; min-height: 668px; background: url(../images/boxyellow.png) top center repeat-y; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
 
-#boxa { width: 658px; position: relative; z-index: 2; }
-#boxc { width: 658px; position: relative; z-index: 3; }
-#boxb { width: 658px; position: relative; z-index: 1; }
-.box { position: absolute; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5; transform: scale(0.995); }
-.box.active { opacity: 1; transform: scale(1); }
 #taba { left: 0px; }
 #tabc { right: 170px; }
 #tabb { right: 0px; }
