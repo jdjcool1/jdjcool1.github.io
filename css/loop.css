@@ -1,7 +1,7 @@
 body { display: flex; justify-content: center; align-items: center; min-width: 100vw; min-height: 100vh; max-width: 100%; max-height: 100%; margin: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #00000000; background: url(../images/starfield.gif) repeat, black; }
-h1 { color: #4c566c; font-weight: bold; font-size: 20px; text-shadow: white 0px 1px 0px; }
-h2 { color: #4c566c; font-weight: bold; font-size: 16px; text-shadow: white 0px 1px 0px; }
-a { color: #4c566c; font-size: 13px; text-decoration: none; }
+h1 { font-weight: bold; font-size: 20px; text-shadow: white 0px 1px 0px; }
+h2 { font-weight: bold; font-size: 16px; text-shadow: white 0px 1px 0px; }
+a { font-size: 13px; text-decoration: none; }
 a:hover { text-decoration: underline; }
 p { font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px; }
 c { font-size: 11px; text-decoration: none; font-style: normal; position: absolute; bottom: 10px; left: 0px; right: 0px; padding: 0px 10px; }
@@ -25,7 +25,7 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 .box:nth-child(3) { transform: translateX(0cqw); }
 
 .boxg { color: #004c00; border: 1px solid #8ab87b; background-color: #e5ffcc; }
-.boxw { color: #000000; border: 1px solid #a9abae; background-color: #ffffff; }
+.boxw { color: #4c566c; border: 1px solid #a9abae; background-color: #ffffff; }
 .boxr { color: #660000; border: 1px solid #d1a08e; background-color: #ffe5cc; }
 
 #boxa { width: 658px; position: relative; z-index: 2; }
