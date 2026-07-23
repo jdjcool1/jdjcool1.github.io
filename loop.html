@@ -8,17 +8,17 @@
 	<script src="js/count_loop.js" type="text/javascript"></script>
 	<script type="text/javascript">
 <!--
-function Swap(aboxid, bboxid, cboxid) {
+function Swap(lboxid, cboxid, rboxid) {
 	// Remove active class
-    document.getElementById("boxa").classList.remove("active");
-    document.getElementById("boxb").classList.remove("active");
+    document.getElementById("boxl").classList.remove("active");
     document.getElementById("boxc").classList.remove("active");
+    document.getElementById("boxr").classList.remove("active");
     // Set z-index
-	document.getElementById(aboxid).style.zIndex = 3;
-	document.getElementById(bboxid).style.zIndex = 2;
-	document.getElementById(cboxid).style.zIndex = 1;
+	document.getElementById(lboxid).style.zIndex = 3;
+	document.getElementById(cboxid).style.zIndex = 2;
+	document.getElementById(rboxid).style.zIndex = 1;
 	// Animate selected box
-    document.getElementById(aboxid).classList.add("active");
+    document.getElementById(lboxid).classList.add("active");
 }
 -->
 	</script>
@@ -26,19 +26,19 @@ function Swap(aboxid, bboxid, cboxid) {
 </head>
 	<body>
 		<div id="content"><div id="box" class="boxg">
-			<div id="boxa" class="box" onmousedown="Swap('boxa', 'boxc', 'boxb')"><div class="article">
-				<div class="tab" id="taba">
+			<div id="boxl" class="box" onmousedown="Swap('boxl', 'boxc', 'boxr')"><div class="article">
+				<div class="tab" id="tabl">
 					<h1>Info</h1>
 				</div>
 				<div class="leftboxtop"></div>
 				<div class="boxbackground"><div class="articleBody">
-					<h2>warning site is in beta</h2>
-					<p>temp</p>
+					<h2>•</h2>
+					<p>•</p>
 					<c>This website is usuing GitHub Pages Hosting. You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub.</c>
 				</div></div>
 				<div class="boxbottom"></div>
 			</div></div>
-			<div id="boxc" class="box active" onmousedown="Swap('boxc', 'boxa', 'boxb')"><div class="article">
+			<div id="boxc" class="box active" onmousedown="Swap('boxc', 'boxl', 'boxr')"><div class="article">
 				<div class="tab" id="tabc">
 					<h1>loop</h1>
 				</div>
@@ -51,8 +51,8 @@ function Swap(aboxid, bboxid, cboxid) {
 				</div></div>
 				<div class="boxbottom"></div>
 			</div></div>
-			<div id="boxb" class="box" onmousedown="Swap('boxb', 'boxc', 'boxa')"><div class="article">
-				<div class="tab" id="tabb">
+			<div id="boxr" class="box" onmousedown="Swap('boxr', 'boxc', 'boxl')"><div class="article">
+				<div class="tab" id="tabr">
 					<h1>Nav</h1>
 				</div>
 				<div class="rightboxtop"></div>
@@ -63,8 +63,8 @@ function Swap(aboxid, bboxid, cboxid) {
 
 						</div>
 						<div class="divider"></div>
-						<h2>warning site is in beta</h2>
-						<p>temp</p>	
+						<h2>•</h2>
+						<p>•</p>	
 					</div>
 					<c>This website is usuing GitHub Pages Hosting. You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub.</c>
 				</div></div>
