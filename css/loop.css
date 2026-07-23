@@ -17,8 +17,8 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 #boxj a { color: #04D9FF; }
 #boxj p { color: #FE6C02; }
 
-#box { container-type: inline-size; display: grid; justify-content: center; grid-template-columns: 1fr 1fr 1fr; position: relative; padding-top: 40px; min-width: 658px; min-height: 726px; max-width: 100%; max-height: 100%; border-radius: 20px; transition: all 0.5s ease; }
-.box { grid-area: 1 / 1; width: 658px; position: relative; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5;  }
+#box { container-type: inline-size; display: grid; justify-items: center; position: relative; padding-top: 40px; min-width: 658px; min-height: 726px; max-width: 100%; max-height: 100%; border-radius: 20px; transition: all 0.5s ease; }
+.box { position: relative; width: 658px; top: 40px; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5;  }
 .box.active { opacity: 1; }
 .box:nth-child(1) { transform: translateX(0cqw); }
 .box:nth-child(2) { transform: translateX(0cqw); }
@@ -28,9 +28,9 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 .boxw { color: #4c566c; border: 1px solid #a9abae; background-color: #ffffff; }
 .boxr { color: #660000; border: 1px solid #d1a08e; background-color: #ffe5cc; }
 
-#boxa { z-index: 2; }
-#boxc { z-index: 3; }
-#boxb { z-index: 1; }
+#boxl { left: 0px; position: absolute; z-index: 2; }
+#boxc { position: absolute; z-index: 3; }
+#boxr { right: 0px; position: absolute; z-index: 1; }
 
 #loop { position: relative; margin-bottom: 34px; width: 598px; height: 564px; background: url(../images/loop.png) top center no-repeat; background-size: contain; }
 #loop:hover { background: url(../images/loophover.png) top center no-repeat; background-size: contain; }
@@ -56,6 +56,6 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 .boxbackground { width: 658px; min-height: 668px; background: url(../images/boxyellow.png) top center repeat-y; }
 .boxbottom { width: 658px; height: 29px; background: url(../images/boxbottom.png) top center no-repeat ; }
 
-#taba { left: 0px; }
+#tabl { left: 0px; }
 #tabc { right: 170px; }
-#tabb { right: 0px; }
+#tabr { right: 0px; }
