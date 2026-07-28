@@ -77,7 +77,7 @@ img { border: none; }
 #iconsContainer {  }
 
 #middleColumn { z-index: 3; padding: 15px; }
-.article { clear: both; padding-bottom: 5px; }
+.article { display: grid; grid-template-rows: 40px 1fr 40px; clear: both; min-height: 678px; padding-bottom: 5px; }
 .article h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 17px; padding-left: 5px; background: url(../images/divider.png) center bottom 0px repeat-x; }
 .articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
 .articleInfo { padding: 20px 5px; background: url(../images/divider.png) center top 0px repeat-x; }
@@ -85,7 +85,7 @@ img { border: none; }
 .articleAuthor span { font-style: italic; text-shadow: 0px 0px 5px #04D9FF; }
 .articleDate { float: right; }
 
-.profile { clear: both; padding-bottom: 40px; }
+.profile { clear: both; min-height: 643px; padding-bottom: 40px; }
 .profile h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 17px; padding-left: 5px; background: url(../images/divider.png) center bottom 0px repeat-x; }
 .profileBody { padding: 0px 10px; line-height: 30px; text-align: center; }
 
