@@ -27,14 +27,14 @@ img { border: none; }
 .Hexagon:hover { background: url(../images/Hexagon_000080.svg) left 8px center / 16px 16px no-repeat, url(../images/Hexagon_FE6C02.svg) left center / 32px 32px no-repeat; }
 
 /* HEADER */
-#header { position: relative; text-align: center; height: 253px; background: url(../images/header.png) center top -153px no-repeat; }
+#header { position: relative; text-align: center; height: 211px; background: url(../images/header.png) center top -153px no-repeat; }
 
 #topMenu { height: 59px; text-align: center; line-height: 24px; padding: 0px 10px; background: url(../images/top-menu_bg.png) top repeat-x; }
 #topMenuContainer {  }
 #topMenu a { margin: auto 5px; }
 #topMenu a:hover {  }
 
-#site { position: relative; height: 194px; text-align: center; } 
+#site {position: relative;height: 112px;text-align: center;} 
 #site h1 { margin: 0px auto; }
 #site h1 span {  }
 #site img { width: 81px; height: 89px; }
@@ -43,7 +43,7 @@ img { border: none; }
 #favicon h1 { padding-top: 89px; }
 .favicon { position: relative; right: -280px; width: 400px; height: 89px; margin: 0px auto; margin-bottom: 23px; }
 
-#mainMenu { position: absolute; width: 100%; top: 212px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
+#mainMenu { position: absolute; width: 100%; bottom: 0px; text-align: center; height: 41px; background: url(../images/main-menu_bg.png) top repeat-x; }
 #mainMenu as { line-height: 40px; }
 #mainMenuContainerR { float: right; position: absolute; right: 50%; min-width: 945px; }
 #mainMenuContainerL { position: relative; left: 50%; }
@@ -77,20 +77,22 @@ img { border: none; }
 #iconsContainer {  }
 
 #middleColumn { z-index: 3; padding: 15px; }
-.article { display: grid; grid-template-rows: 40px 1fr 40px; clear: both; min-height: 678px; padding-bottom: 5px; }
-.article h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 17px; padding-left: 5px; background: url(../images/divider.png) center bottom 0px repeat-x; }
-.articleBody { padding: 0px 10px; line-height: 30px; text-align: center; }
-.articleInfo { padding: 20px 5px; background: url(../images/divider.png) center top 0px repeat-x; }
+.article { clear: both; padding-bottom: 5px; }
+.article h1 { text-align: left; margin: 0px; padding-left: 5px; }
+.articleBody { min-height: 600px; padding: 0px 10px; line-height: 30px; text-align: center; }
+.articleInfo { padding: 20px 5px; }
 .articleAuthor { float: left; }
 .articleAuthor span { font-style: italic; text-shadow: 0px 0px 5px #04D9FF; }
 .articleDate { float: right; }
 
-.profile { clear: both; min-height: 643px; padding-bottom: 40px; }
-.profile h1 { text-align: left; margin: 0px; margin-top: 0px; padding-bottom: 17px; padding-left: 5px; background: url(../images/divider.png) center bottom 0px repeat-x; }
-.profileBody { padding: 0px 10px; line-height: 30px; text-align: center; }
+.profile { clear: both; padding-bottom: 45px; }
+.profile h1 { text-align: left; margin: 0px; padding-left: 5px; }
+.profileBody { min-height: 600px; padding: 0px 10px; line-height: 30px; text-align: center; }
 
 #shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); animation: spin 1s linear infinite; }
-.divider { width: 100%; height: 1px; margin: 10px 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
+
+#divider { width: 100%; height: 23px; background: url(../images/divider.png) center repeat-x; }
+.divider { width: 100%; height: 1px; margin: 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
 
 .box { width: 100%; min-height: 81px; background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px 0px; -moz-border-radius: 5px; border-radius: 5px; corner-shape: bevel;
 				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
