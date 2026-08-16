@@ -218,15 +218,15 @@ const menuLinks = [
 
 
 {
-    id: "temp",
-    class: "temp",
-    url: "temp.html",
+    id: "test",
+    class: "test",
+    url: "test.html",
     labels: {
-        top: "temp",
-        navloop: "temp",
-        main: "temp",
-        left: "temp",
-        bottom: "temp"
+        top: "test",
+        navloop: "test",
+        main: "test",
+        left: "test",
+        bottom: "test"
     },
     menus: ["navloop"]
 },

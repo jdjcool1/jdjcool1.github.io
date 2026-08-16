@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", function () {
     let seconds = 59;
 
     let hash = window.location.hash.substring(1);
+    
     let target = hash ? hash + ".html" : "loop.html";
 
     let box = document.getElementById("box");
