@@ -27,7 +27,7 @@ img { border: none; }
 .Hexagon:hover { background: url(../images/Hexagon_000080.svg) left 8px center / 16px 16px no-repeat, url(../images/Hexagon_FE6C02.svg) left center / 32px 32px no-repeat; }
 
 /* HEADER */
-#header { position: relative; text-align: center; height: 211px; background: url(../images/header.png) center top -153px no-repeat; }
+#header { position: relative; text-align: center; height: 211px; background: url(../images/header.png) center top -179px no-repeat; }
 
 #topMenu { height: 59px; text-align: center; line-height: 24px; padding: 0px 10px; background: url(../images/top-menu_bg.png) top repeat-x; }
 #topMenuContainer {  }
