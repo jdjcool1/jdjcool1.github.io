@@ -13,7 +13,7 @@ ul { padding-inline-start: 40px; text-align: justify; list-style-image: url(../i
 ul ul { list-style-image: url(../images/bullet2.png); }
 
 img { border: none; }
-
+ 
 @view-transition { navigation: auto; }
 ::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
 
