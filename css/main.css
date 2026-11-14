@@ -72,13 +72,13 @@ img { border: none; }
 #rightboxContainerDrexon69 {  }
 
 #icons { text-align: center; }
-#icons a { height: 32px; margin: 0px 10px; margin-bottom: 3px; padding-top: 3px; padding-inline-start: 32px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; corner-shape: bevel; border-left-width: 0px; border-right-width: 0px; }
+#icons a { height: 32px; margin: 0px 10px; margin-bottom: 10px; padding-top: 3px; padding-bottom: 3px; padding-inline-start: 32px; text-align: left; display: block; line-height: 17px; border: 1px solid #04D9FF; border-radius: 5px; corner-shape: bevel; border-left-width: 0px; border-right-width: 0px; }
 #icons a:hover { border: 1px solid #FE6C02; border-left-width: 0px; border-right-width: 0px; }
 #iconsContainer {  }
 
 #middleColumn { z-index: 3; padding: 15px; }
 .article { clear: both; padding-bottom: 5px; }
-.article h1 { text-align: left; margin: 0px; padding-left: 5px; }
+.article h1 { text-align: left; margin: 0px; padding-left: 25px; }
 .articleBody { min-height: 600px; padding: 0px 10px; line-height: 30px; text-align: center; }
 .articleInfo { padding: 20px 5px; }
 .articleAuthor { float: left; }
@@ -86,7 +86,7 @@ img { border: none; }
 .articleDate { float: right; }
 
 .profile { clear: both; padding-bottom: 45px; }
-.profile h1 { text-align: left; margin: 0px; padding-left: 5px; }
+.profile h1 { text-align: left; margin: 0px; padding-left: 25px; }
 .profileBody { min-height: 600px; padding: 0px 10px; line-height: 30px; text-align: center; }
 
 #shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); animation: spin 1s linear infinite; }
@@ -94,11 +94,11 @@ img { border: none; }
 #divider { width: 100%; height: 23px; background: url(../images/divider.png) center repeat-x; }
 .divider { width: 100%; height: 1px; margin: 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
 
-.box { width: 100%; min-height: 81px; background: #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px 0px; -moz-border-radius: 5px; border-radius: 5px; corner-shape: bevel;
+.box { width: 100%; min-height: 81px; background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #00006B url(../images/box_bg.png) top repeat-x; border: 1px solid #000080; margin-bottom: 10px; padding: 10px 0px; -moz-border-radius: 5px; border-radius: 5px; corner-shape: bevel;
 				border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
 				-moz-box-shadow: 0px 10px 13px #000; -webkit-box-shadow: 0px 10px 13px #000; box-shadow: 0px 10px 13px #000; }
 .box h1 { margin: 0px; }
-.box-important { background: #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
+.box-important { background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000078 url(../images/box-important_bg.png) top repeat-x; -moz-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; -webkit-box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; }
 
 #middleboxContainer {  }
 

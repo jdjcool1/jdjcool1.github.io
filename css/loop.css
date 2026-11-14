@@ -11,7 +11,7 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 
 #content { position: relative; border: 1px solid #ffffff; padding: 8px; width: clamp( 660px, 50vw, 1320px ); height: 768px; box-shadow: 0px 0px 25px #ffffff; background: url(../images/backgroundStripes.png) repeat; }
 
-#boxj { min-height: 279px; padding: 10px 0px; corner-shape: bevel; border: 1px solid #000080; border-radius: 5px; background-color: #000080; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000; }
+#boxj { min-height: 279px; padding: 10px 0px; corner-shape: bevel; background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000080; border: 1px solid #000080; border-radius: 5px; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000; }
 #boxj h1 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
 #boxj h2 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
 #boxj a { color: #04D9FF; }
