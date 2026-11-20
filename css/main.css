@@ -80,14 +80,14 @@ img { border: none; }
 .article { clear: both; padding-bottom: 5px; }
 .article h1 { text-align: left; margin: 0px; padding-left: 25px; }
 .articleBody { min-height: 340px; padding: 0px 10px; line-height: 30px; text-align: center; }
-.articleInfo { padding: 20px 5px; }
+.articleInfo { padding: 20px 25px; }
 .articleAuthor { float: left; }
 .articleAuthor span { font-style: italic; text-shadow: 0px 0px 5px #04D9FF; }
 .articleDate { float: right; }
 
 .profile { clear: both; }
 .profile h1 { text-align: left; margin: 0px; padding-left: 25px; }
-.profileBody { min-height: 340px; padding: 0px 10px; line-height: 30px; text-align: center; }
+.profileBody { min-height: 340px; padding: 46px 10px; padding-top: 0px; line-height: 30px; text-align: center; }
 
 #shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); animation: spin 1s linear infinite; }
 
