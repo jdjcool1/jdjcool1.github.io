@@ -52,7 +52,7 @@ img { border: none; }
 
 /* CONTENT */
 #content { flex: 1; text-align: center; clear: both; position: relative; }
-#contentContainer { position: relative; display: grid; grid-template-columns: 245px 48vw 245px; justify-content: center; margin: auto; height: 100%; }
+#contentContainer { position: relative; display: grid; grid-template-columns: 245px clamp(490px, 50vw, 918px) 245px; justify-content: center; margin: auto; height: 100%; }
 #contentContainerI { position: relative; margin: auto; height: 100%; }
 .contenttop { position: absolute; width: 100%; height: 371px; background: url(../images/content_bg.png) top repeat-x; }
 .contentbottom { position: absolute; width: 100%; top: 371px; bottom: 0px; background: linear-gradient(0deg, #000048 0%, #00001E 50%) top;  }
@@ -104,18 +104,6 @@ img { border: none; }
 
 #middleboxContainer {  }
 
-.boxborder { position: relative; z-index: 5; padding-top: 5px; width: 997px; background: #000080; border: 1px solid #000080; -moz-border-radius: 16px; border-radius: 16px; 
-	-moz-box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF; -webkit-box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF; box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF; }
-.boxtitle { position: relative; z-index: 4; width: 997px; height: 53px; background: url(../images/title_bg.png) bottom center no-repeat; line-height: 50px; }
-.boxtop { position: relative; z-index: 3; width: 997px; height: 179px; background: url(../images/top_bg.png) top center no-repeat; }
-.boxmiddle { position: relative; z-index: 1; width: 997px; background: url(../images/mid_bg.png) top center repeat-y; }
-.boxbottom { position: relative; z-index: 2; width: 997px; height: 29px; background: url(../images/bottom_bg.png) top center no-repeat ; }
-
-.boxarticle { display: flex; justify-content: center; position: relative; top: 6px; }
-.boxarticle h1 { text-align: center; margin-top: -6px; margin-bottom: 0px; font-size: 41px; }
-.boxarticle a { text-align: center; margin-top: 10px; margin-bottom: 20px; padding-top: 0px; padding-bottom: 0px; }
-.boxarticle p { margin: 0px; padding-top: 17px; text-align: center; }
-.boxarticle img {  }
 
 #button { position: relative; text-align: center; }
 #button a { position: absolute; right: 0px; left: 0px; margin: auto; display: block; line-height: 210px; width: 187px; height: 100px;  background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 100px; }
