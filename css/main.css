@@ -1,5 +1,5 @@
 /* COMMON */
-body { display: flex; flex-direction: column; min-width: 980px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px auto 0px auto; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url("../images/login_bg.png") center top -153px repeat-x, url(../images/starfield.gif) repeat, black; }
+body { display: flex; flex-direction: column; min-width: 980px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px auto 0px auto; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url(../images/starfield.gif) repeat, black; }
 h1 { font-size: 20px; color: #FE6C02; text-decoration: none; font-style: normal; text-shadow: 0px 1px 2px #FE6C02, 0px 2px 4px #04D9FF; }
 a { font-size: 13px; color: #04D9FF; text-decoration: none; font-style: normal; text-shadow: 0px 1px 2px #FE6C02, 0px 2px 4px #04D9FF; }
 a:hover { color: #FE6C02; text-decoration: underline; text-shadow: 0px 1px 2px #04D9FF, 0px 2px 4px #FE6C02; }
@@ -27,7 +27,7 @@ img { border: none; }
 .Hexagon:hover { background: url(../images/Hexagon_000080.svg) left 8px center / 16px 16px no-repeat, url(../images/Hexagon_FE6C02.svg) left center / 32px 32px no-repeat; }
 
 /* HEADER */
-#header { position: relative; text-align: center; height: 211px; width: stretch; background: url(../images/header.png) center top -179px no-repeat; }
+#header { position: relative; text-align: center; height: 211px; width: stretch; background: url(../images/header.png) center top -179px no-repeat, url("../images/login_bg.png") center top -153px repeat-x; }
 
 #topMenu { height: 59px; text-align: center; line-height: 24px; padding: 0px 10px; background: url(../images/top-menu_bg.png) top repeat-x; }
 #topMenuContainer {  }
