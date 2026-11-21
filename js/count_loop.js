@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
     
     let target = hash ? hash + ".html" : "loop.html";
 
-    let box = document.getElementById("box");
+    let box = document.getElementById("boxjs");
 
     let timer = setInterval(function () {
 
