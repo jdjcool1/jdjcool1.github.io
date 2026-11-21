@@ -33,7 +33,7 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 #favicon h1, h2 { margin-top: 0px; padding-top: 89px; }
 .favicon { position: relative; height: 89px; margin-bottom: 30px; }
 
-#box { container-type: inline-size; display: grid; justify-items: center; position: relative; padding-top: 40px; width: stretch; height: stretch; border-radius: 20px; transition: all 0.5s ease; }
+#box { container-type: inline-size; display: grid; justify-items: center; position: relative; padding-top: 40px; width: 997px; height: 728px; border-radius: 20px; transition: all 0.5s ease; }
 .box { position: relative; width: 658px; top: 40px; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5;  }
 .box.active { opacity: 1; }
 
@@ -41,7 +41,7 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 .article h1, h2 { font-weight: bold; text-shadow: white 0px 1px 0px; margin: 0px; padding-top: 18px; }
 .articleBody { padding: 0px 29px }
 
-#boxjs { margin: 10px; width: stretch; height: 65px; border-radius: 20px; position: absolute; bottom: 1px; transition: all 0.5s ease; }
+#boxjs { margin: 10px; width: 975px; height: 65px; border-radius: 20px; position: absolute; bottom: 1px; transition: all 0.5s ease; }
 .boxg { color: #004c00; border: 1px solid #8ab87b; background-color: #e5ffcc; }
 .boxw { color: #4c566c; border: 1px solid #a9abae; background-color: #ffffff; }
 .boxr { color: #660000; border: 1px solid #d1a08e; background-color: #ffe5cc; }
