@@ -102,7 +102,7 @@ img { border: none; }
 #middleboxContainer {  }
 
 #button { position: relative; text-align: center; }
-#button a { position: relative; right: 0px; left: 0px; margin: 15px auto; display: block; line-height: 215px; width: 187px; height: 100px;  background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 100px; }
+#button a { position: relative; margin: 15px auto; display: block; text-align: center; width: 187px; height: 0px; padding-top: 100px; background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 100px; }
 #button a:hover { background-position: center 100%; }
 #button img { height: 66px; margin-top: 166px; margin-bottom: 0%; margin-left: 0px; }
 
