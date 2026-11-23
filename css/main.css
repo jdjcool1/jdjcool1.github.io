@@ -1,5 +1,5 @@
 /* COMMON */
-body { display: flex; flex-direction: column; min-width: 980px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px auto 0px auto; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url(../images/starfield.gif) repeat, black; }
+body { display: flex; flex-direction: column; min-width: 980px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px auto 0px auto; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url(../images/starfield.gif) fixed repeat, black; }
 h1 { font-size: 20px; color: #FE6C02; text-decoration: none; font-style: normal; text-shadow: 0px 1px 2px #FE6C02, 0px 2px 4px #04D9FF; }
 a { font-size: 13px; color: #04D9FF; text-decoration: none; font-style: normal; text-shadow: 0px 1px 2px #FE6C02, 0px 2px 4px #04D9FF; }
 a:hover { color: #FE6C02; text-decoration: underline; text-shadow: 0px 1px 2px #04D9FF, 0px 2px 4px #FE6C02; }
