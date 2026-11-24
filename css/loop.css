@@ -3,8 +3,8 @@ h1 { font-size: 20px; }
 h2 { font-size: 16px; }
 a { font-size: 13px; text-decoration: none; }
 a:hover { text-decoration: underline; }
-p { font-size: 13px; text-decoration: none; font-style: normal; display: contents; margin: 0px; }
-c { font-size: 11px; text-decoration: none; font-style: normal; position: absolute; bottom: 0px; left: 0px; right: 0px; padding: 0px 10px; }
+p { font-size: 13px; text-decoration: none; font-style: normal; display: contents; }
+c { font-size: 11px; text-decoration: none; font-style: normal; display: block; position: relative; align-content: end; margin-top: auto; }
 
 @view-transition { navigation: auto; }
 ::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
@@ -12,32 +12,33 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 #content { position: relative; width: 997px; height: 700px; box-shadow: 0px 0px 10px 0px #FE6C02, 0px 0px 20px 0px #04D9FF; border: 1px solid #000080; border-radius: 16px;
 	background: url(../images/title_top_bg.png) top center no-repeat, url(../images/bottom_bg.png) bottom center no-repeat, url(../images/mid_bg.png) top center repeat-y, #000080;}
 
-#boxj { position: relative; min-height: 578px; padding: 10px 0px; margin: 0px 0px; box-shadow: -4px -4px 8px 0px #04D9FF, 4px 4px 8px 0px #FE6C02, 0px 0px 8px 8px #000080, 0px 0px 4px 8px #000000; border: 1px solid #000080; border-radius: 5px; corner-shape: bevel; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
-		background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000080; }
-#boxj h1 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: 0px 1px 0px 0px #04D9FF; }
-#boxj h2 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: 0px 1px 0px 0px #04D9FF; }
-#boxj a { color: #04D9FF; }
-#boxj p { color: #FE6C02; }
-
 .divider { width: 100%; height: 1px; margin: 10px 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
-
-#loop { display: block; align-content: end; box-sizing: border-box; position: relative; margin: auto; width: 598px; height: 598px; border: 1px solid #fefe00; border-radius: 25%; corner-shape: bevel; box-shadow: inset 0 0 8px #fefe00; background: url(../images/loop.png) top center / auto 78% no-repeat, url(../images/starfield.gif) fixed repeat, #000000; color: #fefe00; font-size: 28px; text-align: center; text-decoration: none; }
-#loop:hover { color: #0000fe; border-color: #0000fe; box-shadow: inset 0 0 8px #0000fe; background-image: url(../images/loophover.png), url(../images/starfield.gif); }
-
-
-#favicon { background: url(../images/favicon.png) top center no-repeat; }
-#favicon h1, h2 { margin-top: 0px; padding-top: 89px; }
-.favicon { position: relative; height: 89px; margin-bottom: 30px; }
 
 #box { container-type: inline-size; display: grid; justify-items: center; position: relative; padding-top: 40px; width: 997px; height: 660px; border-radius: 20px; transition: all 0.5s ease; }
 .box { position: relative; width: 658px; top: 40px; transition: opacity 0.5s ease, transform 0.5s ease; opacity: 0.5;  }
 .box.active { opacity: 1; }
 
 .article { position: relative; margin: 0px 0px;  width: 658px; }
-.article h1, h2 { font-weight: bold; text-shadow: 0px 1px 0px 0px #ffffff; margin: 0px; padding-top: 18px; }
+.article h1 { font-weight: bold; text-shadow: 0px 1px 0px #ffffff; margin: 0px; padding-top: 18px; }
+.article h2 { font-weight: bold; text-shadow: 0px 1px 0px #ffffff; margin: 0px; padding-top: 10px; }
 .articleBody { position: relative; padding: 0px 29px; }
 
-#boxjs { margin: 0px; width: 598px; min-height: 598px; border-radius: 20px; position: relative; bottom: 1px; transition: all 0.5s ease; }
+#loop { display: block; align-content: end; box-sizing: border-box; position: relative; margin: auto; width: 598px; height: 598px; border: 1px solid #fefe00; border-radius: 25%; corner-shape: bevel; box-shadow: inset 0 0 8px #fefe00; background: url(../images/loop.png) top center / auto 78% no-repeat, url(../images/starfield.gif) fixed repeat, #000000; color: #fefe00; font-size: 28px; text-align: center; text-decoration: none; }
+#loop:hover { color: #0000fe; border-color: #0000fe; box-shadow: inset 0 0 8px #0000fe; background-image: url(../images/loophover.png), url(../images/starfield.gif); }
+
+#boxjdd { position: relative; min-height: 598px; padding: 0px 0px; margin: 0px 0px; box-shadow: -4px -4px 8px 0px #04D9FF, 4px 4px 8px 0px #FE6C02, 0px 0px 8px 8px #000080, 0px 0px 4px 8px #000000; border: 1px solid #000080; border-radius: 5px; corner-shape: bevel; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
+		background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000080; }
+#boxjdd h1 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: 0px 1px 0px #04D9FF; }
+#boxjdd h2 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: 0px 1px 0px #04D9FF; }
+#boxjdd a { color: #04D9FF; }
+#boxjdd p { color: #FE6C02; }
+
+#favicon { background: url(../images/favicon.png) 50% 100% no-repeat; }
+#favicon h1 { margin-top: 0px; padding-top: 100px; }
+#favicon h2 { margin-top: 0px; padding-top: 100px; }
+.favicon { position: relative; height: 100px; margin-bottom: 23px; }
+
+#boxjs { display: flex; flex-direction: column; margin: 0px; padding: 0px 5px; width: stretch; height: 598px; border-radius: 20px; position: relative; transition: all 0.5s ease; }
 .boxg { color: #004c00; border: 1px solid #8ab87b; background-color: #e5ffcc; }
 .boxw { color: #4c566c; border: 1px solid #a9abae; background-color: #ffffff; }
 .boxr { color: #660000; border: 1px solid #d1a08e; background-color: #ffe5cc; }
@@ -56,3 +57,5 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 #tabl { left: 0px; }
 #tabc { right: 170px; }
 #tabr { right: 0px; }
+
+
