@@ -9,10 +9,10 @@ c { font-size: 11px; text-decoration: none; font-style: normal; position: absolu
 @view-transition { navigation: auto; }
 ::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
 
-#content { position: relative; width: 997px; height: 768px; border: 1px solid #000080; border-radius: 16px; box-shadow: 0px 0px 8px #FE6C02, 0px 0px 25px #04D9FF;
+#content { position: relative; width: 997px; height: 768px; box-shadow: 0px 0px 10px 0px #FE6C02, 0px 0px 20px 0px #04D9FF; border: 1px solid #000080; border-radius: 16px;
 	background: url(../images/title_top_bg.png) top center no-repeat, url(../images/bottom_bg.png) bottom center no-repeat, url(../images/mid_bg.png) top center repeat-y, #000080;}
 
-#boxj { min-height: 279px; padding: 10px 0px; corner-shape: bevel; border: 1px solid #000080; border-radius: 5px; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 5px 5px #000;
+#boxj { min-height: 279px; padding: 10px 0px; box-shadow: -4px -4px 8px 0px #04D9FF, 4px 4px 8px 0px #FE6C02, 0px 0px 8px 8px #000080, 0px 0px 4px 8px #000000; border: 1px solid #000080; border-radius: 5px; corner-shape: bevel; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
 		background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000080; }
 #boxj h1 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
 #boxj h2 { margin: 0px; padding: 0px; color: #FE6C02; text-shadow: #04D9FF 0px 1px 0px; }
