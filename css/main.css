@@ -97,7 +97,7 @@ img { border: none; }
 .box { width: 100%; min-height: 100px; border: 1px solid #000080; margin-bottom: 30px; padding: 10px 0px; border-radius: 5px; corner-shape: bevel; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
 		background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #00006B url(../images/box_bg.png) top repeat-x; }
 .box h1 { margin: 0px; }
-.box-important { box-shadow: 0px 0px 8px #04D9FF, 0px 0px 25px #FE6C02; background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000078 url(../images/box-important_bg.png) top repeat-x; }
+.box-important { box-shadow: -4px -4px 8px #04D9FF, 4px 4px 8px #FE6C02, 0px 0px 16px #000080; background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000078 url(../images/box-important_bg.png) top repeat-x; }
 
 #middleboxContainer {  }
 
