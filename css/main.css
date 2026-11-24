@@ -1,5 +1,5 @@
 /* COMMON */
-body { display: flex; flex-direction: column; min-width: 980px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px auto 0px auto; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url(../images/starfield.gif) fixed repeat, black; }
+body { display: flex; flex-direction: column; min-width: 980px; max-width: 100%; min-height: 100vh; max-height: 100%; margin: 0px auto 0px auto; padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #FE6C02; background: url(../images/starfield.gif) fixed repeat, #000000; }
 h1 { font-size: 20px; color: #FE6C02; text-decoration: none; font-style: normal; text-shadow: 0px 1px 2px #FE6C02, 0px 2px 4px #04D9FF; }
 a { font-size: 13px; color: #04D9FF; text-decoration: none; font-style: normal; text-shadow: 0px 1px 2px #FE6C02, 0px 2px 4px #04D9FF; }
 a:hover { color: #FE6C02; text-decoration: underline; text-shadow: 0px 1px 2px #04D9FF, 0px 2px 4px #FE6C02; }
@@ -48,7 +48,7 @@ img { border: none; }
 #mainMenuContainerR { float: right; position: absolute; right: 50%; min-width: 945px; }
 #mainMenuContainerL { position: relative; left: 50%; }
 #mainMenu a { display: block; position: relative; float: left; width: 189px; height: 33px; line-height: 33px; font-weight: bold; margin-top: 4px; background: url(../images/main-menu_button.png) center top no-repeat; }
-#mainMenu a:hover { background-position: center 100%; border-radius: 5px; box-shadow: 0px 0px 25px #04D9FF; text-decoration: underline; }  
+#mainMenu a:hover { background-position: center 100%; border-radius: 5px; box-shadow: 0px 0px 25px 0px #04D9FF; text-decoration: underline; }  
 
 /* CONTENT */
 #content { flex: 1; text-align: center; clear: both; position: relative; width: stretch; }
@@ -89,15 +89,15 @@ img { border: none; }
 .profile h1 { text-align: left; margin: 0px; padding-left: 25px; }
 .profileBody { min-height: 340px; padding: 46px 10px; padding-top: 0px; line-height: 30px; text-align: center; }
 
-#shape { width: 40px; height: 40px; background: black; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); animation: spin 1s linear infinite; }
+#shape { width: 40px; height: 40px; background: #000000; clip-path: polygon( 9% 26.25%, 9% 73.75%, 50% 97.5%, 91% 73.75%, 91% 26.25%, 50% 2.5% ); animation: spin 1s linear infinite; }
 
 #divider { width: 100%; height: 23px; background: url(../images/divider.png) center repeat-x; }
 .divider { width: 100%; height: 1px; margin: 0px; background: linear-gradient(90deg, #04D9FF 0%, #FE6C02 100%) top; }
 
-.box { width: 100%; min-height: 100px; border: 1px solid #000080; margin-bottom: 30px; padding: 10px 0px; border-radius: 5px; corner-shape: bevel; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; 
-		background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #00006B url(../images/box_bg.png) top repeat-x; }
+.box { width: 100%; min-height: 100px; border: 1px solid #000080; margin-bottom: 30px; padding: 10px 0px; border-radius: 5px; corner-shape: bevel; border-top-color: #04D9FF; border-left-color: #04D9FF; border-right-color: #FE6C02; border-bottom-color: #FE6C02; box-shadow: 0px 0px 8px 8px #000000; 
+		background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, url(../images/box_bg.png) top repeat-x, #00006B; }
 .box h1 { margin: 0px; }
-.box-important { box-shadow: -4px -4px 8px #04D9FF, 4px 4px 8px #FE6C02, 0px 0px 16px #000080; background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, #000078 url(../images/box-important_bg.png) top repeat-x; }
+.box-important { box-shadow: -4px -4px 8px 0px #04D9FF, 4px 4px 8px 0px #FE6C02, 0px 0px 8px 8px #000080; background: url(../images/system_tl.png) 0 0 no-repeat, url(../images/system_tr.png) 100% 0 no-repeat, url(../images/system_bl.png) 0 100% no-repeat, url(../images/system_br.png) 100% 100% no-repeat, url(../images/system.png) 0 0 repeat, url(../images/box-important_bg.png) top repeat-x, #000078; }
 
 #middleboxContainer {  }
 
@@ -109,7 +109,7 @@ img { border: none; }
 
 #count { font-style: italic; }
 
-#loading { display: block; position: relative; margin: 15px auto; width: 66px; height: 66px; right: 0px; border: 1px solid #000000; border-radius: 21px; corner-shape: bevel; box-shadow: 0px 10px 13px #000; background: url(../images/loading.gif) top center no-repeat, black; }
+#loading { display: block; position: relative; margin: 15px auto; width: 66px; height: 66px; right: 0px; border: 1px solid #000000; border-radius: 21px; corner-shape: bevel; box-shadow: 0px 10px 13px 0px #000000; background: url(../images/loading.gif) top center no-repeat, #000000; }
 
 /* FOOTER */
 #footer { height: 125px; width: stretch; position: relative; text-align: center; background: url(../images/footer_bg.png) top repeat-x; clear: both; }
