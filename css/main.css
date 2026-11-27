@@ -17,9 +17,9 @@ img { border: none; }
 @view-transition { navigation: auto; }
 ::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
 
-@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-
 @font-face { font-family: 'Orbitron'; src: url('../fonts/Orbitron-VariableFont_wght.ttf') format('truetype'); font-weight: 400 900; font-style: normal; font-display: swap; }
+
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
 #github { background: none }
 #carrd { background: url(../images/carrd_favicon.png) left no-repeat; }
