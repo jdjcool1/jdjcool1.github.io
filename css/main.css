@@ -102,7 +102,7 @@ img { border: none; }
 #middleboxContainer {  }
 
 #href { position: relative; text-align: center; }
-#href a { display: block; position: relative; margin: 15px auto; text-align: center; width: 211px; height: 60px; }
+#href a { display: block; position: relative; margin: 15px auto; text-align: center; width: 260px; height: 60px; }
 
 #button { display: block; position: relative; margin: 15px auto; text-align: center; width: 100px; height: 100px; background: url(../images/map-iconInternet.png) center top no-repeat; background-size: 100px; }
 #button:hover { background-position: center bottom; }
