@@ -1,13 +1,15 @@
 body { display: flex; justify-content: center; align-items: center; min-width: 1000px; min-height: 100vh; max-width: 100%; max-height: 100%; margin: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #4c566c; background: url(../images/starfield.gif) fixed repeat, #000000; }
-h1 { font-size: 20px; letter-spacing: 1px; font-family: Orbitron; }
-h2 { font-size: 16px; letter-spacing: 1px; font-family: Orbitron; }
-a { font-size: 13px; letter-spacing: 1px; font-family: Orbitron; text-decoration: none; }
+h1 { font-size: 20px; letter-spacing: 1px; font-family: 'Orbitron', sans-serif; }
+h2 { font-size: 16px; letter-spacing: 1px; font-family: 'Orbitron', sans-serif; }
+a { font-size: 13px; letter-spacing: 1px; font-family: 'Orbitron', sans-serif; text-decoration: none; }
 a:hover { text-decoration: underline; }
 p { font-size: 13px; text-decoration: none; font-style: normal; display: contents; }
 c { font-size: 11px; text-decoration: none; font-style: normal; display: block; position: relative; align-content: end; margin-top: auto; }
 
 @view-transition { navigation: auto; }
 ::view-transition-group(root) { animation-delay: 0.3s; animation-direction: 1s; }
+
+@font-face { font-family: 'Orbitron'; src: url('../fonts/Orbitron-VariableFont_wght.ttf') format('truetype'); font-weight: 400 900; font-style: normal; font-display: swap; }
 
 #content { position: relative; width: 997px; height: 700px; box-shadow: 0px 0px 10px 0px #FE6C02, 0px 0px 20px 0px #04D9FF; border: 1px solid #000080; border-radius: 16px;
 	background: url(../images/title_top_bg.png) top center no-repeat, url(../images/bottom_bg.png) bottom center no-repeat, url(../images/mid_bg.png) top center repeat-y, #000080;}
