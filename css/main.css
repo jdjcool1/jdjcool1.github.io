@@ -25,8 +25,8 @@ img { border: none; }
 #carrd { background: url(../images/carrd_favicon.png) 3px no-repeat; }
 #gravatar { background: url(../images/gravatar_favicon.png) 3px no-repeat; }
 #linktree { background: url(../images/linktree_favicon.png) 3px no-repeat; }
-.Hexagon { background: url(../images/Hexagon_000080.svg) 10px center / 16px 16px no-repeat, url(../images/Hexagon_04D9FF.svg) 2px center / 32px 32px no-repeat; }
-.Hexagon:hover { background: url(../images/Hexagon_000080.svg) 10px center / 16px 16px no-repeat, url(../images/Hexagon_FE6C02.svg) 2px center / 32px 32px no-repeat; }
+.Hexagon { background: url(../images/Hexagon_000080.svg) 11px center / 16px 16px no-repeat, url(../images/Hexagon_04D9FF.svg) 3px center / 32px 32px no-repeat; }
+.Hexagon:hover { background: url(../images/Hexagon_000080.svg) 11px center / 16px 16px no-repeat, url(../images/Hexagon_FE6C02.svg) 3px center / 32px 32px no-repeat; }
 
 /* HEADER */
 #header { position: relative; text-align: center; height: 211px; width: stretch; background: url(../images/header.png) center top -179px no-repeat, url("../images/login_bg.png") center top -153px repeat-x; }
